@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><script>try{if(sessionStorage.getItem('kz-seen'))document.documentElement.classList.add('seen');else sessionStorage.setItem('kz-seen','1')}catch(e){}</script><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kzyh — Discord Management &amp; Moderation Portfolio</title>
+<meta name="description" content="Kzyh's professional Discord Management and Moderation portfolio, featuring community operations, server setup, staff organization, and moderation experience.">
+<meta name="theme-color" content="#07080a">
+<link rel="canonical" href="https://kzyh-portfolio.vercel.app/">
+<meta property="og:type" content="website"><meta property="og:url" content="https://kzyh-portfolio.vercel.app/"><meta property="og:site_name" content="Kzyh">
+<meta property="og:title" content="Kzyh — Discord Management &amp; Moderation Portfolio"><meta property="og:description" content="Discord management, server setup, staff organization, and moderation experience.">
+<meta property="og:image" content="https://kzyh-portfolio.vercel.app/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Kzyh, Discord Management and Moderation portfolio">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://kzyh-portfolio.vercel.app/og.png">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230d0f13'/%3E%3Crect x='2' y='2' width='60' height='60' rx='14' fill='none' stroke='%23454b55' stroke-width='2'/%3E%3Cpath d='M22 17v30M22 33l17-16M27.5 29l13 18' stroke='%23f4f5f7' stroke-width='5' stroke-linecap='round' fill='none'/%3E%3C/svg%3E">
+<noscript><style>#staff[hidden]{display:block!important}.intro{display:none}</style></noscript>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>:root{--bg:#07080a;--tx:#f4f5f7;--mu:#969ca6;--mu2:#747b86;--ln:#292f38;--ln2:#3c434e;--live:#78b58a;--past:#b57c88;--max:1220px;
+--steel:linear-gradient(140deg,#343941,#1b1f25 52%,#0d0f12);--card:linear-gradient(150deg,#15191f,#0b0d11)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{color-scheme:dark;overflow-x:hidden;scroll-behavior:smooth;background:var(--bg);-webkit-text-size-adjust:100%}
+body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--tx);line-height:1.55;min-height:100vh;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0;z-index:-2;background:radial-gradient(circle at 82% 4%,rgba(255,255,255,.07),transparent 28%),radial-gradient(circle at 6% 52%,rgba(255,255,255,.03),transparent 32%),linear-gradient(150deg,#050608,#0d1014 50%,#07080a)}
+body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.3;background-image:linear-gradient(rgba(255,255,255,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.02) 1px,transparent 1px);background-size:48px 48px;-webkit-mask-image:linear-gradient(#000,transparent 80%);mask-image:linear-gradient(#000,transparent 80%)}
+a{color:inherit;text-decoration:none}button{font:inherit;color:inherit;cursor:pointer;background:none;border:0}img{display:block;max-width:100%;height:auto}
+svg{fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}[hidden]{display:none!important}
+::selection{background:#c5c9cf;color:#0b0d10}:focus-visible{outline:2px solid #e5e7ea;outline-offset:3px;border-radius:8px}
+::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{background:#08090b}::-webkit-scrollbar-thumb{background:#2b3037;border:2px solid #08090b;border-radius:99px}
+.skip{position:absolute;left:12px;top:-60px;background:#fff;color:#000;padding:8px 14px;border-radius:8px;z-index:99;font-weight:700}.skip:focus{top:12px}
+.shell{width:min(var(--max),calc(100% - 48px));margin-inline:auto}
+/* nav */
+.site-header{position:sticky;top:14px;z-index:50;padding-top:14px}
+.navbar{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:20px;padding:10px 12px 10px 14px;border:1px solid rgba(255,255,255,.09);background:rgba(12,14,18,.78);backdrop-filter:blur(24px) saturate(130%);-webkit-backdrop-filter:blur(24px);border-radius:17px;box-shadow:0 16px 52px rgba(0,0,0,.3),inset 0 1px 0 rgba(255,255,255,.04)}
+#modeButton{justify-self:end}
+.brand{display:inline-flex;align-items:center;gap:11px;font-size:15px;font-weight:900;letter-spacing:.04em;justify-self:start}
+.logo{width:32px;height:32px;border-radius:10px;overflow:hidden;border:1px solid var(--ln2);box-shadow:0 0 0 3px rgba(255,255,255,.03)}.logo img{width:100%;height:100%!important;object-fit:cover}
+.nav-copy{display:flex;align-items:center;gap:9px;font-size:12px;color:#7f858e}.nav-context{color:#d3d6da;font-weight:700}.nav-dot{width:4px;height:4px;border-radius:50%;background:#656b74}
+/* buttons: steel */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:11px;padding:11px 12px 11px 17px;border-radius:12px;font-weight:800;font-size:14px;background:var(--steel);border:1px solid #454b55;color:var(--tx);box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 12px 28px rgba(0,0,0,.28);transition:transform .22s cubic-bezier(.2,.8,.2,1),background .22s,border-color .22s,box-shadow .22s}
+.btn:hover{transform:translateY(-2px);border-color:#636b77;background:linear-gradient(140deg,#434952,#242931 50%,#111419);box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 16px 36px rgba(0,0,0,.36)}
+.btn.ghost{background:rgba(255,255,255,.025);border-color:#303640;color:#d5d8dc;box-shadow:none}.btn.ghost:hover{background:rgba(255,255,255,.06);border-color:#4a525e}
+.ibox{width:27px;height:27px;display:inline-grid;place-items:center;flex:none;border-radius:8px;border:1px solid #3b424c;background:linear-gradient(145deg,#222730,#0f1216);box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 5px 14px rgba(0,0,0,.2);transition:.2s}
+.ibox svg{width:13px;height:13px;grid-area:1/1;stroke-width:1.65;transition:opacity .2s,transform .2s}
+.ibox.big{width:36px;height:36px;border-radius:11px;margin-bottom:18px}.ibox.big svg{width:18px;height:18px}
+.ic-back{opacity:0;transform:scale(.8)}.staff-mode .ic-badge{opacity:0;transform:scale(.8)}.staff-mode .ic-back{opacity:1;transform:none}
+/* spotlight cards */
+.card{position:relative;border:1px solid var(--ln);border-radius:18px;background:var(--card);box-shadow:inset 0 1px 0 rgba(255,255,255,.03),0 12px 34px rgba(0,0,0,.24);overflow:hidden;transition:transform .25s cubic-bezier(.2,.8,.2,1),border-color .25s}
+.card::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity .3s;background:radial-gradient(340px circle at var(--mx,50%) var(--my,50%),rgba(255,255,255,.075),transparent 62%)}
+.card:hover{border-color:#4d5560}.card:hover::before{opacity:1}
+a.card:hover{transform:translateY(-4px)}a.card:hover .ibox{border-color:#616975;background:linear-gradient(145deg,#30363f,#15191e)}
+/* hero */
+.view{min-height:100vh;padding:48px 0 40px}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:clamp(36px,6vw,84px);align-items:center;padding:34px 0 44px}
+.kicker,.lab{font-size:10px;font-weight:900;letter-spacing:.24em;text-transform:uppercase;color:#9298a2}
+.kicker{display:inline-flex;align-items:center;gap:10px;margin-bottom:18px}.kicker::before{content:"";width:28px;height:1px;background:linear-gradient(90deg,#c8ccd1,#555b64)}
+h1{font-size:clamp(46px,6.4vw,86px);line-height:.94;letter-spacing:-.07em;font-weight:810}
+.lead{max-width:62ch;margin-top:24px;font-size:clamp(16px,1.6vw,19px);color:#a1a6ae;line-height:1.68}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}.chips span{display:inline-flex;align-items:center;gap:8px;padding:7px 11px;border:1px solid #2b3139;background:rgba(255,255,255,.025);border-radius:99px;font-size:11px;font-weight:700;color:#b3b7be}
+.chips i{width:5px;height:5px;border-radius:50%;background:#aeb3bb;box-shadow:0 0 8px rgba(255,255,255,.3)}
+.actions{display:flex;flex-wrap:wrap;gap:11px;margin-top:28px}
+.id{position:relative;justify-self:end;width:100%;max-width:340px;padding:12px;border:1px solid #303640;border-radius:26px;background:linear-gradient(150deg,rgba(25,29,35,.95),rgba(10,12,15,.97));box-shadow:0 30px 90px rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.04)}
+.acc{position:absolute;left:16%;right:16%;top:0;height:1px;background:linear-gradient(90deg,transparent,#aab0b9,transparent)}
+.cn{position:absolute;width:14px;height:14px;border:1px solid #6b727d;pointer-events:none}.tl{left:-6px;top:-6px;border-right:0;border-bottom:0;border-radius:6px 0 0 0}.tr{right:-6px;top:-6px;border-left:0;border-bottom:0;border-radius:0 6px 0 0}.bl{left:-6px;bottom:-6px;border-right:0;border-top:0;border-radius:0 0 0 6px}.br{right:-6px;bottom:-6px;border-left:0;border-top:0;border-radius:0 0 6px 0}
+.avatar{aspect-ratio:1;border-radius:17px;overflow:hidden;border:1px solid #272c34;background:#0b0d10}.avatar img{width:100%;height:100%!important;object-fit:cover}
+.id-cap{padding:14px 6px 4px}.id-cap strong{display:block;font-size:22px;letter-spacing:-.035em}.id-cap span{font-size:12px;color:#8e949d}
+.id-meta{display:flex;gap:6px;padding:12px 6px 4px;border-top:1px solid var(--ln);margin-top:12px}.id-meta span{padding:4px 9px;border:1px solid #2f3540;border-radius:99px;font-size:10px;font-weight:700;color:#b3b7be;background:rgba(255,255,255,.03)}
+.rv{animation:rv .8s cubic-bezier(.2,.7,.2,1) both;animation-delay:calc(var(--d,0)*80ms)}@keyframes rv{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+/* metrics */
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:8px 0 12px}
+.metric{padding:18px 20px 20px}.metric strong{display:block;font-size:24px;line-height:1.05;letter-spacing:-.045em}.metric>span:last-child{display:block;margin-top:7px;font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#8f959e}
+.note{max-width:90ch;margin-bottom:14px;font-size:11.5px;color:var(--mu2)}
+.roles{padding:20px 22px;margin-bottom:8px}.dist{display:flex;gap:4px;height:12px;margin:14px 0 14px}.dist i{border-radius:99px}.d0{background:#eef0f2}.d1{background:#9298a2}.d2{background:#4a505a}
+.leg{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:12px;color:#b3b7be}.leg span{display:inline-flex;align-items:center;gap:8px}.leg em{font-style:normal;color:var(--mu2)}.leg b{width:9px;height:9px;border-radius:3px}.k0{background:#eef0f2}.k1{background:#9298a2}.k2{background:#4a505a}
+/* sections */
+.section{padding:76px 0 0}.sh{display:grid;grid-template-columns:.9fr 1.1fr;gap:42px;align-items:end;margin-bottom:28px}
+.lab{margin-bottom:9px;color:#898f98}h2{font-size:clamp(32px,4.4vw,52px);line-height:1;letter-spacing:-.055em;font-weight:800}.sh p{color:#949aa3;max-width:650px;line-height:1.65}
+.pill{position:relative;display:inline-flex;align-items:center;padding:5px 9px 5px 20px;border-radius:99px;border:1px solid;font-size:9px;font-weight:900;letter-spacing:.07em;text-transform:uppercase;white-space:nowrap}
+.pill::before{content:"";position:absolute;left:8px;top:50%;width:5px;height:5px;border-radius:50%;transform:translateY(-50%);background:var(--live);box-shadow:0 0 8px rgba(120,181,138,.4)}
+.pill.live{color:#a9d6b7;border-color:#345841;background:linear-gradient(135deg,rgba(36,72,47,.7),rgba(18,31,23,.88))}
+.pill.past{color:#d2a9b3;border-color:#5b3a43;background:linear-gradient(135deg,rgba(74,42,50,.64),rgba(31,22,25,.88))}.pill.past::before{background:var(--past);box-shadow:0 0 7px rgba(181,124,136,.3)}
+.works{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.work{display:flex;flex-direction:column}
+.work-art{position:relative;aspect-ratio:1;background:#090b0e;border-bottom:1px solid var(--ln);overflow:hidden}.work-art img{width:100%;height:100%!important;object-fit:cover;transition:transform .6s cubic-bezier(.2,.8,.2,1)}.work:hover .work-art img{transform:scale(1.02)}
+.work-art .pill{position:absolute;left:12px;top:12px;backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.work-body{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1}.work-top{display:flex;justify-content:space-between;align-items:center;gap:10px}.work h3{font-size:21px;letter-spacing:-.038em}
+.work p{margin-top:7px;font-size:13px;color:#9298a2;line-height:1.55}.work-foot{display:flex;justify-content:space-between;gap:12px;margin-top:auto;padding-top:14px;border-top:1px solid var(--ln);font-size:11px;font-weight:750;color:#c1c5ca}.work-foot{margin-top:16px}.work-foot span:last-child{color:#808690}
+/* services */
+.svcs{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.svc{padding:20px;display:flex;flex-direction:column}.svc:hover{transform:translateY(-3px)}
+.svc-top{display:flex;justify-content:space-between;align-items:flex-start}.svc-top .ibox{margin:0}.num{font-size:11px;font-weight:900;letter-spacing:.19em;color:#777e88}
+.svc h3{font-size:19px;margin-top:20px;letter-spacing:-.03em}.svc p{margin-top:7px;font-size:13px;color:#8f959e;line-height:1.6}
+.svc ul{list-style:none;display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:14px}.svc li{padding:4px 9px;border:1px solid #2b3139;border-radius:99px;font-size:10px;font-weight:700;color:#aab0b9;background:rgba(255,255,255,.02)}
+/* cta */
+.cta{display:grid;grid-template-columns:1fr auto;gap:28px;align-items:center;padding:32px;background:linear-gradient(145deg,#171b21,#0c0e12)}.cta .lab{margin-bottom:12px}
+.cta h2{font-size:clamp(28px,3.8vw,42px);letter-spacing:-.05em;line-height:1.04;max-width:780px}.cta p{margin-top:12px;color:#9399a2;max-width:760px}.cta+.cta{margin-top:12px;padding:24px 32px}.back h2{font-size:26px}
+.cta::after{content:"";position:absolute;width:300px;height:300px;right:-110px;top:-140px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.07),transparent 68%);pointer-events:none}
+/* roster */
+.filters{display:flex;align-items:center;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.chip{padding:8px 16px;border:1px solid #303640;border-radius:99px;font-size:12px;font-weight:700;color:#aab0b9;background:rgba(255,255,255,.02);transition:.2s}.chip:hover{border-color:#4a525e}
+.chip[aria-pressed=true]{background:var(--steel);border-color:#5a616c;color:#fff;box-shadow:inset 0 1px 0 rgba(255,255,255,.1)}
+#cnt{margin-left:auto;font-size:12px;color:var(--mu2)}
+.slist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.srow{display:grid;grid-template-columns:96px minmax(0,1fr) auto;gap:16px;align-items:center;padding:11px 14px 11px 11px}
+.thumb{width:96px;height:96px;border-radius:13px;overflow:hidden;border:1px solid #2c323b;background:#090b0e}.thumb img{width:100%;height:100%!important;object-fit:cover}
+.shead{display:flex;align-items:center;gap:8px;flex-wrap:wrap}.shead h3{font-size:17px;letter-spacing:-.03em}.role{margin-top:3px;font-size:12px;font-weight:750;color:#e0e2e5}
+.bar{height:4px;border-radius:99px;background:#1c2027;margin-top:11px;overflow:hidden}.bar i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,#6b727d,#eef0f2)}
+.meta{display:flex;flex-wrap:wrap;gap:4px 8px;margin-top:8px;font-size:10px;color:#878e98}.meta span:first-child{color:#d0d3d8;font-weight:800;padding-right:8px;border-right:1px solid #303640}
+.foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:76px;padding:28px 0 calc(10px + env(safe-area-inset-bottom,0));border-top:1px solid var(--ln);font-size:11px;color:#747b85}
+::view-transition-old(root),::view-transition-new(root){animation-duration:.25s}
+@media(max-width:980px){.hero{grid-template-columns:1fr}.id{justify-self:start;max-width:300px;order:-1}.sh{grid-template-columns:1fr;gap:14px}.works,.svcs{grid-template-columns:repeat(2,1fr)}.metrics{grid-template-columns:repeat(2,1fr)}.slist{grid-template-columns:1fr}.navbar{grid-template-columns:1fr auto}.nav-copy{display:none}.cta{grid-template-columns:1fr}.cta .btn{justify-self:start}}
+@media(max-width:680px){.shell{width:calc(100% - 22px)}.site-header{top:7px;padding-top:7px}.btn{font-size:13px}.view{padding-top:22px}
+.hero{padding-top:18px}.id{max-width:none;display:grid;grid-template-columns:104px 1fr;gap:6px 14px;align-items:center;padding:10px;border-radius:20px}.avatar{grid-row:1/3;border-radius:14px}.id-cap{padding:4px 0 0}.id-meta{border:0;margin:0;padding:0 0 4px;flex-wrap:wrap}.cn{display:none}
+h1{font-size:clamp(40px,12.4vw,56px)}.actions .btn{flex:1 1 100%}.works,.svcs{grid-template-columns:1fr}.metrics{gap:8px}.metric{padding:15px;min-height:130px}.metric strong{font-size:20px}.metric>span:last-child{font-size:8px}
+.section{padding-top:54px}
+.cta{padding:22px}.srow{grid-template-columns:72px minmax(0,1fr) auto;gap:12px}.thumb{width:72px;height:72px}.srow .ibox{display:none}.srow{grid-template-columns:72px minmax(0,1fr)}.shead h3{font-size:15px}#cnt{margin-left:0;width:100%}}
+
+/* ---- custom icons ---- */
+.ico{fill:none;stroke:currentColor;stroke-width:1.5}.ico .s{opacity:.5;transition:opacity .3s}.ico .f{fill:currentColor;stroke:none}
+.ibox{color:#e9ebee}.ibox.big{width:46px;height:46px;border-radius:14px;background:radial-gradient(circle at 30% 20%,#2d333c,#101317 70%)}.ibox.big svg{width:28px;height:28px;stroke-width:1.5}
+.card:hover .ico .s{opacity:1}
+.ic-cycle .rot{transform-origin:16px 16px;animation:spin 16s linear infinite}
+.ic-reach .w1{animation:wave 2.6s ease-in-out infinite}.ic-reach .w2{animation:wave 2.6s .7s ease-in-out infinite}
+.ic-rack .led{animation:blink 2.2s steps(1) infinite}.ic-rack .l2{animation-delay:1.1s}
+.ic-eye .pupil{transform-box:fill-box;transform-origin:center;animation:look 6s ease-in-out infinite}
+.ic-ranks .c1,.ic-ranks .c2,.ic-ranks .c3{animation:rise 3s ease-in-out infinite}.ic-ranks .c2{animation-delay:.3s}.ic-ranks .c3{animation-delay:.6s}
+.ic-ticket .dash{transition:stroke-dashoffset .8s}.card:hover .ic-ticket .dash{stroke-dashoffset:-20}
+.ic-mega .v1,.ic-mega .v2{transition:transform .3s,opacity .3s}.card:hover .ic-mega .v1{animation:wave .9s infinite}.card:hover .ic-mega .v2{animation:wave .9s .2s infinite}
+.ic-recruit .plus{transform-box:fill-box;transform-origin:center;transition:transform .4s cubic-bezier(.3,1.6,.5,1)}.card:hover .ic-recruit .plus{transform:rotate(90deg) scale(1.15);opacity:1}
+.ic-hub rect,.ic-nodes circle,.ic-stack rect{transition:transform .4s}.card:hover .ic-hub rect{transform:scale(1.12);transform-origin:16px 16px}
+@keyframes spin{to{transform:rotate(360deg)}}@keyframes wave{0%,100%{opacity:.15}50%{opacity:1}}@keyframes blink{50%{opacity:.15}}
+@keyframes look{0%,40%,100%{transform:translateX(0) scaleY(1)}48%{transform:translateX(0) scaleY(.1)}55%{transform:translateX(0) scaleY(1)}70%{transform:translateX(1.8px)}85%{transform:translateX(-1.8px)}}
+@keyframes rise{0%,100%{opacity:.25;transform:translateY(0)}50%{opacity:1;transform:translateY(-1.2px)}}
+/* ---- motion ---- */
+.prog{position:fixed;top:0;left:0;right:0;height:2px;z-index:70;transform-origin:left;transform:scaleX(var(--p,0));background:linear-gradient(90deg,#4a505a,#fff);box-shadow:0 0 12px rgba(255,255,255,.4)}
+.navbar{transition:box-shadow .3s,background .3s,border-color .3s}.scrolled .navbar{background:rgba(9,10,13,.9);border-color:rgba(255,255,255,.14)}
+.acc{background:linear-gradient(90deg,transparent,#aab0b9,transparent);background-size:200% 100%}
+.avatar{position:relative}.avatar::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,transparent 40%,rgba(255,255,255,.16) 50%,transparent 60%);transform:translateX(-120%);animation:sweep 7s 1.5s ease-in-out infinite;pointer-events:none}
+@keyframes sweep{0%{transform:translateX(-120%)}25%,100%{transform:translateX(120%)}}
+.cn{animation:cn 4s ease-in-out infinite}.tr{animation-delay:1s}.br{animation-delay:2s}.bl{animation-delay:3s}@keyframes cn{50%{border-color:#e5e7ea}}
+.chips i{animation:pulse 2.8s ease-in-out infinite}@keyframes pulse{50%{opacity:.35}}
+.btn{position:relative;overflow:hidden}.btn::after{content:"";position:absolute;top:0;bottom:0;left:-60%;width:40%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.16),transparent);transform:skewX(-20deg);transition:left .7s;pointer-events:none}.btn:hover::after{left:130%}
+.btn:hover .ibox svg{transform:translate(1px,-1px)}
+.js .rev:not(.in){opacity:0}.js .rev.in{animation:up .75s cubic-bezier(.2,.7,.2,1) var(--rd,0ms) backwards}
+@keyframes up{from{opacity:0;transform:translateY(22px) scale(.985)}}
+.srow.in .bar i,.roles.in .dist i{transform-origin:left;animation:grow 1.2s .35s cubic-bezier(.2,.7,.2,1) backwards}@keyframes grow{from{transform:scaleX(0)}}
+.srow:hover .bar i{background:linear-gradient(90deg,#9298a2,#fff)}
+.pill.live::before{animation:ping 2s ease-in-out infinite}@keyframes ping{50%{box-shadow:0 0 0 5px rgba(120,181,138,0)}0%{box-shadow:0 0 0 0 rgba(120,181,138,.5)}}
+/* marquee */
+.marq{overflow:hidden;margin-top:28px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
+.track{display:flex;gap:10px;width:max-content;animation:marq 55s linear infinite}.marq:hover .track{animation-play-state:paused}
+.track span{display:inline-flex;align-items:center;gap:10px;padding:6px 16px 6px 6px;border:1px solid var(--ln);border-radius:99px;background:rgba(255,255,255,.025);font-size:12px;font-weight:700;color:#b3b7be;white-space:nowrap}
+.track img{width:28px;height:28px!important;border-radius:50%;object-fit:cover}@keyframes marq{to{transform:translateX(calc(-50% - 5px))}}
+
+/* ======== v3 ======== */
+:root{--boot:0s}.boot{--boot:1.05s}
+/* tighter numbered blocks & metrics */
+.svc-top{align-items:center}.svc-top .ibox,.ibox.big{margin:0 0 0}.metric .ibox.big{margin-bottom:14px}.svc h3{margin-top:16px}.svc p{margin-top:6px}.svc ul{margin-top:0;padding-top:14px}.svc{padding:18px 20px 20px}
+.svc-top .num{font-size:11px;opacity:.7}
+/* small icon boxes use the new 32px icons */
+.ibox svg{width:17px;height:17px}.ibox:not(.big) .ico{stroke-width:1.9}.ibox.big svg{width:28px;height:28px}
+.ico .star{transform-box:fill-box;transform-origin:center}
+.btn:hover .ic-badge .star{animation:spin 1.2s linear}
+.btn:hover .ic-portal,.card:hover .ic-portal{filter:drop-shadow(0 0 4px rgba(255,255,255,.35))}
+.ic-portal .f{transition:transform .3s}.btn:hover .ic-portal .f,.card:hover .ic-portal .f{transform:translate(2px,-2px)}
+.ic-down .dn{animation:nudge 1.8s ease-in-out infinite}@keyframes nudge{50%{transform:translateY(3px)}}
+.btn:hover .ic-back{transform:translateX(-2px)}.ic-msg .s{transition:transform .3s}.btn:hover .ic-msg .s{transform:translateX(1.5px)}
+.ic-book{transition:transform .3s}.btn:hover .ic-book{transform:rotate(-6deg)}
+/* header: solid fade so text never shows through, ghost staff button */
+.site-header::before{content:"";position:absolute;inset:0 -24px -22px;z-index:-1;pointer-events:none;background:linear-gradient(#07080a 62%,transparent)}
+#modeButton{background:rgba(255,255,255,.02);border-color:rgba(255,255,255,.1);box-shadow:none;color:#aab0b9;white-space:nowrap;font-weight:700}
+#modeButton:hover{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.22);color:#fff}
+.t-short{display:none}.btn{white-space:nowrap}
+.prog{height:2px;opacity:.55;box-shadow:none}
+.cn{border-color:#3d434d}.id-meta span{background:transparent;border-color:rgba(255,255,255,.08);color:#8e949d}
+.btn.ghost{opacity:.9}.back .btn{background:rgba(255,255,255,.02);border-color:rgba(255,255,255,.1);box-shadow:none;color:#aab0b9}.back .btn:hover{color:#fff;background:rgba(255,255,255,.06)}
+.chips span{background:transparent;color:#9da3ac}.pill{opacity:.92}
+/* footnote marker */
+.inf{display:inline-flex;vertical-align:-2px;margin-left:5px;color:#7f858e}.inf svg{width:12px;height:12px;stroke-width:2}
+.note{display:flex;gap:2px;align-items:flex-start;color:#6f7680}.note .inf{margin:2px 7px 0 0;flex:none}
+/* heading: masked line reveal */
+h1{letter-spacing:-.055em}
+h1 .ln{display:block;overflow:hidden;padding-bottom:.12em;margin-bottom:-.12em}
+h1 .ln b{display:block;font-weight:inherit;transform:translateY(108%);animation:lnUp 1s cubic-bezier(.2,.8,.2,1) calc(var(--boot) + .15s) forwards}
+h1 .g b{font-weight:500;background:linear-gradient(100deg,#8e949e 40%,#fff 50%,#8e949e 60%);background-size:300% 100%;background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;animation:lnUp 1s cubic-bezier(.2,.8,.2,1) calc(var(--boot) + .3s) forwards,shine 2.4s calc(var(--boot) + 1.2s) ease-in-out 1 backwards}
+@keyframes lnUp{to{transform:none}}@keyframes shine{from{background-position:100% 0}to{background-position:0 0}}
+.rv{animation-delay:calc(var(--boot) + var(--d,0)*80ms)}
+.kicker::before{transform-origin:left;animation:grow 1s calc(var(--boot) + .1s) cubic-bezier(.2,.7,.2,1) backwards}
+/* intro */
+.intro{position:fixed;inset:0;z-index:100;display:grid;place-items:center;background:#07080a;pointer-events:none;animation:wipe .9s 1.15s cubic-bezier(.76,0,.24,1) forwards}
+.intro>div{display:flex;flex-direction:column;align-items:center;gap:14px;animation:fadeUp .7s cubic-bezier(.2,.8,.2,1) backwards}
+.intro img{width:64px;height:64px!important;border-radius:20px;object-fit:cover;border:1px solid #3b424c;box-shadow:0 0 0 6px rgba(255,255,255,.03),0 20px 50px rgba(0,0,0,.5)}
+.intro b{font-size:18px;letter-spacing:.14em;font-weight:800}.intro i{display:block;width:120px;height:2px;border-radius:2px;background:linear-gradient(90deg,#555b64,#fff);transform-origin:left;animation:grow 1s .1s cubic-bezier(.6,0,.2,1) backwards}
+@keyframes wipe{to{transform:translateY(-100%);visibility:hidden}}@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}}
+/* image + icon reveals */
+.work.in .work-art img{animation:imgIn 1.3s cubic-bezier(.2,.7,.2,1) backwards}@keyframes imgIn{from{transform:scale(1.14);filter:brightness(.6)}}
+.in .ico :is(path,rect,circle):not(.f):not(.dash){stroke-dasharray:1;animation:draw 1.3s .3s cubic-bezier(.4,0,.2,1) backwards}
+@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+.id{transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+::view-transition-old(root){animation:vOut .25s ease both}::view-transition-new(root){animation:vIn .45s cubic-bezier(.2,.8,.2,1) both}
+@keyframes vOut{to{opacity:0;transform:translateY(-10px)}}@keyframes vIn{from{opacity:0;transform:translateY(16px)}}
+#roster,#work{scroll-margin-top:96px}
+h1{font-weight:800}
+@media(max-width:680px){
+ .t-long{display:none}.t-short{display:inline}#modeButton{padding:9px 10px 9px 14px;font-size:13px}.navbar{grid-template-columns:1fr auto}.brand{font-size:14px}
+ h1{letter-spacing:-.045em}.svc{padding:16px 16px 18px}.metric{padding:14px 14px 16px}.metric .ibox.big{margin-bottom:12px}.ibox.big{width:42px;height:42px}
+}
+
+/* ======== v4: icon colors follow their block ======== */
+.ibox{color:var(--ic,#dfe2e6)}
+.btn{--ic:#f4f5f7}.btn.ghost,#modeButton,.back .btn{--ic:#aab0b9}#modeButton:hover,.btn.ghost:hover,.back .btn:hover{--ic:#fff}
+.work[data-s=live],.srow[data-status=active]{--ic:#a9d6b7}.work[data-s=past],.srow[data-status=former]{--ic:#d2a9b3}
+.work[data-s=live]:hover,.srow[data-status=active]:hover{border-color:rgba(120,181,138,.5)}.work[data-s=past]:hover,.srow[data-status=former]:hover{border-color:rgba(181,124,136,.5)}
+@supports (color:color-mix(in srgb,red,blue)){
+ .ibox{border-color:color-mix(in srgb,var(--ic,#dfe2e6) 30%,transparent);background:linear-gradient(145deg,color-mix(in srgb,var(--ic,#dfe2e6) 13%,#12151a),color-mix(in srgb,var(--ic,#dfe2e6) 3%,#0b0d10))}
+ a.card:hover .ibox,.btn:hover .ibox{border-color:color-mix(in srgb,var(--ic,#dfe2e6) 58%,transparent);background:linear-gradient(145deg,color-mix(in srgb,var(--ic,#dfe2e6) 22%,#12151a),color-mix(in srgb,var(--ic,#dfe2e6) 6%,#0b0d10))}
+ #modeButton .ibox,.btn.ghost .ibox,.back .btn .ibox{background:color-mix(in srgb,var(--ic) 7%,transparent)}
+}
+/* profile card text: no oversized line boxes, tighter on phones */
+.id-cap span{display:block;line-height:1.45;margin-top:3px;max-width:34ch}.id-meta{flex-wrap:wrap}
+@media(max-width:680px){
+ .view{padding-top:8px}.hero{padding:10px 0 26px}.id{grid-template-columns:96px 1fr;gap:4px 14px}.id-cap strong{font-size:20px}.id-cap span{font-size:12px}.id-meta span{font-size:9.5px;padding:3px 8px}
+}
+/* ======== v5 ======== */
+.navbar{display:flex;justify-content:space-between;gap:12px}
+.btn{min-height:46px;letter-spacing:.005em}
+#modeButton{min-height:42px;padding:7px 8px 7px 16px;background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.015))}
+.fi{display:inline-flex;align-items:center;gap:6px}.fi .ico{width:13px;height:13px;flex:none;stroke-width:2.3;color:#9aa0a9}
+.srow:hover .fi .ico .s{opacity:1}
+.svc p{margin-bottom:0}.svc h3{margin-top:16px}
+@media(max-width:680px){
+ .navbar{padding:8px 8px 8px 12px}.brand{font-size:14px}#modeButton{font-size:12.5px;gap:9px;padding:6px 7px 6px 13px;min-height:40px}.ibox{width:26px;height:26px}
+ .id-cap span{font-size:12.5px}
+}
+/* ======== v6: nav toggle, legibility, back-to-top ======== */
+.navbar{padding:10px 10px 10px 16px;gap:14px}.brand{flex:none}
+#modeButton{flex:0 1 auto;min-width:0;gap:14px;padding:5px 5px 5px 20px;min-height:46px;border-radius:14px}
+#modeButton .ibox{width:34px;height:34px;border-radius:10px}#modeButton .ibox svg{width:19px;height:19px}
+#modeText{min-width:0;overflow:hidden;text-overflow:ellipsis}
+.btn{max-width:100%}
+@media(max-width:540px){
+ .bn{display:none}.navbar{padding:8px 8px 8px 10px;gap:10px}
+ #modeButton{flex:1 1 auto;justify-content:space-between;padding:5px 5px 5px 16px;font-size:clamp(12px,3.5vw,14px);min-height:44px}#modeButton .ibox{width:32px;height:32px}
+}
+/* readability */
+.note,.foot,.sh p,.work p,.svc p,.metric>span:last-child,.meta,.lab{color:#8a919c}
+.meta{font-size:11px}.pill{font-size:10px}.lab{font-size:10.5px}.metric>span:last-child{font-size:10.5px}.foot{font-size:12px}.note{font-size:12px}.chip{font-size:13px}
+@media(max-width:680px){.metric>span:last-child{font-size:9.5px;letter-spacing:.09em}.meta{font-size:11px}}
+.work-foot span:last-child{color:#8a919c}
+/* back to top */
+.totop{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:60;width:46px;height:46px;display:grid;place-items:center;border-radius:15px;border:1px solid rgba(255,255,255,.1);background:rgba(12,14,18,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity .3s,transform .3s,border-color .2s;--ic:#aab0b9}
+.totop.show{opacity:1;transform:none;pointer-events:auto}.totop:hover{border-color:rgba(255,255,255,.24);--ic:#fff}.totop .ibox{width:32px;height:32px}.totop .ibox svg{width:19px;height:19px}.totop:hover .ic-up .up{transform:translateY(-2px)}.ic-up .up{transition:transform .3s}
+
+.bn{font-weight:900}
+/* ======== v7: alignment polish ======== */
+@media(max-width:680px){
+ .id{align-items:center}.avatar{grid-row:auto}.id-cap{padding:0;align-self:center}
+ .actions .btn,.cta .btn{width:100%;justify-content:center;padding-inline:14px}
+ .foot{justify-content:center;text-align:center;gap:6px 16px}
+}
+.fi .ico .h{fill:currentColor;fill-opacity:.9}
+/* ======== v8: duty icons ======== */
+.fi{align-items:flex-start}.fi .ico{width:15px;height:15px;margin-top:1px;stroke-width:2.1}
+@media(max-width:680px){.meta{flex-direction:column;align-items:flex-start;gap:5px}.meta span:first-child{border:0;padding:0}}
+.fi .ico{width:17px;height:17px;margin-top:0}
+/* ======== v9: info icons ======== */
+.nw{white-space:nowrap}.inf{color:#aab0b9;opacity:.5;transition:opacity .25s}.inf svg{width:12px;height:12px;vertical-align:-1.5px}
+.metric:hover .inf,.note:hover .inf{opacity:.9}
+.note .inf{opacity:.55}
+/* ======== v10: reused-server note ======== */
+.reuse{display:flex;align-items:flex-start;gap:8px;margin-top:11px;padding-top:10px;border-top:1px dashed rgba(255,255,255,.1);font-size:11.5px;line-height:1.45;color:#8a919c}
+.reuse .ico{width:16px;height:16px;flex:none;margin-top:0;stroke-width:2.1;color:#9aa0a9;opacity:.8}
+.srow:hover .reuse{color:#b3b7be}.srow:hover .reuse .ico{opacity:1}
+/* ======== v11: copy username ======== */
+.copy .cd{display:none}.copy.done .cu{display:none}.copy.done .cd{display:inline;color:#b9dec4}
+.copy .ic-check{opacity:0;transform:scale(.7)}.copy.done .ic-copy{opacity:0;transform:scale(.7)}.copy.done .ic-check{opacity:1;transform:none;color:#a9d6b7}
+.copy.done{--ic:#a9d6b7;border-color:rgba(120,181,138,.45)}
+.cta-act{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+@media(max-width:680px){.cta-act{flex-direction:column;align-items:stretch;width:100%}}
+@media(max-width:680px){.actions a.btn[href*="discord.com/users"],.actions .copy{flex:1 1 calc(50% - 6px);width:auto;min-width:0;padding-inline:10px;gap:8px}}
+/* ======== v12: joined contact control ======== */
+.split{display:inline-flex;align-items:stretch;max-width:100%;min-height:46px;border:1px solid #303640;border-radius:12px;background:rgba(255,255,255,.025);overflow:hidden;transition:border-color .2s}
+.split:hover{border-color:#4a525e}
+.split .seg{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:11px;padding:0 8px 0 18px;font-weight:800;font-size:14px;white-space:nowrap;color:#d5d8dc;--ic:#aab0b9;transition:background .2s,color .2s}
+.split .seg+.seg{padding:0 8px 0 16px;font-weight:700;color:#aab0b9;border-left:1px solid #303640}
+.split .seg:hover{background:rgba(255,255,255,.06);color:#fff;--ic:#fff}
+.split.pri{background:var(--steel);border-color:#454b55;box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 12px 28px rgba(0,0,0,.28)}
+.split.pri .seg{color:var(--tx);--ic:#f4f5f7}.split.pri .seg+.seg{border-left-color:#454b55;color:#c5c9cf}
+.split.pri .seg:hover{background:rgba(255,255,255,.08)}
+.split .copy.done{--ic:#a9d6b7;border-color:transparent}.split .copy.done .cd{color:#b9dec4}
+@media(max-width:680px){.actions .split,.cta .split{flex:1 1 100%;width:100%}.actions .split .seg,.cta .split .seg{flex:1 1 auto;padding-inline:12px 8px;gap:8px}.actions .split .seg:first-child,.cta .split .seg:first-child{flex:1.15 1 0}.actions .split .seg+.seg,.cta .split .seg+.seg{flex:1 1 0;padding-inline:12px 8px}}
+/* ======== v13: fluid motion ======== */
+.seen .intro{display:none}.boot{--boot:.85s}
+.intro{animation:wipe .8s .95s cubic-bezier(.76,0,.24,1) forwards}.intro i{animation-duration:.75s}
+.site-header{view-transition-name:hdr;transition:transform .55s cubic-bezier(.2,.8,.2,1)}.site-header.hide{transform:translateY(calc(-100% - 24px))}
+::view-transition-group(hdr){animation-duration:0s}
+.btn{transform:translate(var(--tx,0px),var(--ty,0px))}.btn:hover{transform:translate(var(--tx,0px),calc(var(--ty,0px) - 2px))}
+.js .rev:not(.in){will-change:opacity,transform}.rev.done{will-change:auto}
+.sh.in h2{animation:h2in 1s cubic-bezier(.2,.8,.2,1) backwards}
+@keyframes h2in{from{clip-path:inset(0 0 100% 0);transform:translateY(26px)}to{clip-path:inset(0 0 -20% 0)}}
+.flt{animation:fltIn .5s cubic-bezier(.2,.8,.2,1) var(--fd,0ms) backwards!important}@keyframes fltIn{from{opacity:0;transform:translateY(14px)}}
+.track{will-change:transform}
+
+/* ======== v14: no tap flash on touch ======== */
+*{-webkit-tap-highlight-color:transparent}
+a,button,.card{touch-action:manipulation}
+.btn,.chip,.seg,.totop,#modeButton{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+:focus:not(:focus-visible){outline:none}
+/* ======== v15: clearly visible motion ======== */
+:root{--dist:44px;--blur:8px}.boot{--boot:1.5s}
+@keyframes rv{from{opacity:0;transform:translateY(var(--dist));filter:blur(var(--blur))}}
+@keyframes up{from{opacity:0;transform:translateY(var(--dist)) scale(.97)}}
+.js .rev.in{animation-duration:.95s}
+@keyframes idIn{from{opacity:0;transform:translateY(var(--dist)) scale(.93) rotate(-1.5deg);filter:blur(var(--blur))}}
+.id.rv{animation-name:idIn;animation-duration:1.2s}
+.avatar img{animation:avZoom 1.6s calc(var(--boot) + .1s) cubic-bezier(.2,.7,.2,1) backwards}@keyframes avZoom{from{transform:scale(1.28)}}
+.id{translate:0 var(--py,0px)}
+/* intro: logo then an iris that closes onto the page */
+.intro{clip-path:circle(150% at 50% 50%);animation:iris .95s 1.25s cubic-bezier(.7,0,.2,1) forwards}
+@keyframes iris{to{clip-path:circle(0% at 50% 50%);visibility:hidden}}
+.intro>div{animation:introIn .9s cubic-bezier(.2,.8,.2,1) backwards,introOut .55s .8s cubic-bezier(.5,0,1,1) forwards}
+@keyframes introIn{from{opacity:0;transform:scale(.78) translateY(12px)}}@keyframes introOut{to{opacity:0;transform:scale(1.18)}}
+.intro img{animation:ring 1.4s ease-out}@keyframes ring{0%{box-shadow:0 0 0 0 rgba(255,255,255,.35),0 20px 50px rgba(0,0,0,.5)}100%{box-shadow:0 0 0 26px rgba(255,255,255,0),0 20px 50px rgba(0,0,0,.5)}}
+.intro b{animation:trk 1.2s cubic-bezier(.2,.8,.2,1) backwards}@keyframes trk{from{letter-spacing:.7em;opacity:0}}
+/* ambient light drifting behind everything */
+.glow{position:fixed;z-index:-1;width:62vmax;height:62vmax;border-radius:50%;pointer-events:none;background:radial-gradient(circle,rgba(255,255,255,.075),transparent 66%);animation:drift 22s ease-in-out infinite alternate;will-change:transform}
+.g1{left:-22vmax;top:-14vmax}.g2{right:-28vmax;bottom:-24vmax;animation-duration:28s;animation-direction:alternate-reverse}
+@keyframes drift{to{transform:translate3d(16vmax,12vmax,0) scale(1.18)}}
+/* tactile feedback (touch and mouse) */
+.btn:active{transform:translate(var(--tx,0px),var(--ty,0px)) scale(.95)}.split .seg:active{transform:scale(.97)}
+a.card:active{transform:translateY(-1px) scale(.982)}
+.thumb{transition:transform .5s cubic-bezier(.2,.8,.2,1)}.srow:hover .thumb{transform:scale(1.05)}.srow{transition:transform .3s cubic-bezier(.2,.8,.2,1),border-color .25s}.srow:hover .ibox{transform:translateX(3px)}.ibox{transition:transform .3s,border-color .25s,background .25s}
+.chip{transition:transform .2s,background .25s,border-color .25s,color .2s}.chip:active{transform:scale(.94)}
+/* accessibility: gentler, never off. Only loops, parallax and tilt stop. */
+@media(prefers-reduced-motion:reduce){
+ :root{--dist:16px;--blur:0px}
+ .track,.glow,.avatar::after,.cn,.chips i,.pill.live::before,.ic-cycle .rot,.ic-reach .w1,.ic-reach .w2,.ic-rack .led,.ic-eye .pupil,.ic-ranks .c1,.ic-ranks .c2,.ic-ranks .c3,.ic-down .dn{animation:none}
+ .id{translate:none}
+ html{scroll-behavior:auto}
+}
+@media(min-width:900px){.works{grid-template-columns:1fr;gap:16px}.work{flex-direction:row;align-items:stretch}.work-art{width:min(380px,40%);flex:none;aspect-ratio:1;border-bottom:0;border-right:1px solid var(--ln)}.work-body{padding:30px 36px;justify-content:center}.work h3{font-size:32px}.work p{font-size:16px;max-width:52ch}.work-foot{font-size:12px}}
+.nav-r{display:flex;align-items:center;gap:10px;min-width:0;flex:1 1 auto;justify-content:flex-end}
+.lang{position:relative;display:inline-grid;grid-template-columns:1fr 1fr;flex:none;padding:3px;border:1px solid rgba(255,255,255,.1);border-radius:12px;background:rgba(255,255,255,.02)}
+.lang::before{content:"";position:absolute;top:3px;bottom:3px;left:3px;width:calc(50% - 3px);border-radius:9px;background:linear-gradient(140deg,#3a4049,#1b1f25);border:1px solid #4a515b;box-shadow:inset 0 1px 0 rgba(255,255,255,.08);transition:transform .45s cubic-bezier(.2,.8,.2,1)}
+.lang.pt::before{transform:translateX(100%)}
+.lang button{position:relative;z-index:1;min-width:38px;height:34px;font-size:11.5px;font-weight:800;letter-spacing:.08em;color:#8a919c;transition:color .25s}
+.lang button:hover{color:#d5d8dc}.lang button[aria-pressed=true]{color:#fff}
+@media(max-width:540px){.nav-r{gap:8px}.lang button{min-width:30px;height:30px;font-size:10.5px}#modeButton{font-size:clamp(11px,3.2vw,13px);gap:8px;padding:5px 5px 5px 13px}#modeButton .ibox{width:28px;height:28px}}.lang::before{width:calc((100% - 6px)/2)}
+#modeText{white-space:normal;line-height:1.15;overflow:visible;text-overflow:clip;text-align:left}
+#modeButton{height:auto;padding-block:6px}
+@media(max-width:480px){.navbar{padding:8px}.nav-r{gap:8px}.lang button{min-width:30px}}</style>
+</head>
+<body>
+<div class="intro" aria-hidden="true"><div><img data-av src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="" width="64" height="64"><b>Kzyh</b><i></i></div></div>
+<div class="prog" id="prog"></div>
+<div class="glow g1"></div><div class="glow g2"></div>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header shell"><div class="navbar">
+<a class="brand" href="#" data-go="management"><span class="logo"><img data-av src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="" width="30" height="30"></span><b class="bn">Kzyh</b></a>
+<div class="nav-r"><div class="lang" role="group" aria-label="Language"><button type="button" data-lang="en" aria-pressed="true">EN</button><button type="button" data-lang="pt" aria-pressed="false">PT</button></div><button class="btn" id="modeButton" data-go="staff" type="button"><span id="modeText">View Staff Experience</span><span class="ibox" aria-hidden="true"><svg class="ico ic-badge" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3.5l9.5 3.7v7.6c0 5.8-3.9 10-9.5 12.7-5.6-2.7-9.5-6.9-9.5-12.7V7.2z"/><path class="f star" d="M16 10l1.6 3.2 3.4.5-2.5 2.4.6 3.4-3.1-1.6-3.1 1.6.6-3.4-2.5-2.4 3.4-.5z"/></svg><svg class="ico ic-back" viewBox="0 0 32 32" aria-hidden="true"><path d="M13 8L6 15l7 7"/><path class="s" d="M6 15h14a6 6 0 0 1 6 6v3"/></svg></span></button></div>
+</div></header>
+<main id="main">
+
+<section class="view" id="management">
+<div class="shell">
+<div class="hero">
+<div class="hero-copy">
+<div class="kicker rv" style="--d:0">Management Portfolio</div>
+<h1><span class="ln"><b>Discord systems</b></span><span class="ln g"><b>built for clarity and operation.</b></span></h1>
+<p class="lead rv" style="--d:2">I build and organize complete Discord structures, including channels, categories, roles, permissions, onboarding, ticket systems, rules, announcements, staff workflows, and community operations.</p>
+<div class="actions rv" style="--d:4"><a class="btn" href="#work" data-scroll>Selected work <span class="ibox"><svg class="ico ic-down" viewBox="0 0 32 32" aria-hidden="true"><g class="dn"><path d="M9 14l7 7 7-7"/><path class="s" d="M9 7.5l7 7 7-7"/></g></svg></span></a><div class="split"><a class="seg" href="https://discord.com/users/936796986454212608" target="_blank" rel="noopener noreferrer">Contact me <span class="ibox"><svg class="ico ic-msg" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 9a3 3 0 0 1 3-3h16a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H15l-5.5 4.5V22H8a3 3 0 0 1-3-3z"/><path class="s" d="M11 12h10M11 16h6"/></svg></span></a><button class="seg copy" type="button" data-copy="itskzyh." aria-live="polite" aria-label="Copy Discord username itskzyh."><span class="cu">itskzyh.</span><span class="cd">Copied</span><span class="ibox"><svg class="ico ic-copy" viewBox="0 0 32 32" aria-hidden="true"><rect x="11" y="11" width="16" height="16" rx="4"/><path class="s" d="M21 11V9a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h2"/></svg><svg class="ico ic-check" viewBox="0 0 32 32" aria-hidden="true"><path d="M7 17l6.500 6.500L25 10"/></svg></span></button></div></div>
+</div>
+<aside class="id rv" style="--d:3"><i class="cn tl"></i><i class="cn tr"></i><i class="cn bl"></i><i class="cn br"></i><span class="acc"></span>
+<div class="avatar"><img src="assets/avatar-kzyh.webp" alt="Kzyh profile picture" width="760" height="760" decoding="async"></div>
+<div class="id-cap"><strong>Kzyh</strong><span>Discord management and server operations.</span></div>
+
+</aside>
+</div>
+
+<div class="metrics" aria-label="Management overview">
+<div class="card metric"><span class="ibox big"><svg class="ico ic-rack" viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y="6" width="22" height="8" rx="2.5"/><rect x="5" y="18" width="22" height="8" rx="2.5"/><circle class="f led" cx="9.5" cy="10" r="1.1"/><circle class="f led l2" cx="9.5" cy="22" r="1.1"/><path class="s" d="M14 10h9M14 22h9"/></svg></span><strong data-to="2">2</strong><span>Current Management Projects</span></div>
+<div class="card metric"><span class="ibox big"><svg class="ico ic-stack" viewBox="0 0 32 32" aria-hidden="true"><rect x="10" y="4.5" width="17.5" height="13" rx="2.5"/><path class="s" d="M4.5 11v12a3 3 0 0 0 3 3h14"/><path d="M14 9.5h9M14 13h5.5"/><path class="f" d="M24.6 20.2l.9 1.9 2.1.3-1.5 1.5.4 2.1-1.9-1-1.9 1 .4-2.1-1.5-1.5 2.1-.3z"/></svg></span><strong data-to="6">6</strong><span>Core Management Services</span></div>
+<div class="card metric"><span class="ibox big"><svg class="ico ic-cycle" viewBox="0 0 32 32" aria-hidden="true"><g class="rot"><path d="M26.5 16a10.5 10.5 0 0 1-18.2 7.1"/><path class="s" d="M5.5 16a10.5 10.5 0 0 1 18.2-7.1"/><path d="M24 4.8v4.4h-4.4"/><path class="s" d="M8 27.2v-4.4h4.4"/></g><circle class="f" cx="16" cy="16" r="2.8"/></svg></span><strong>End-to-End</strong><span>Management Coverage</span></div>
+<div class="card metric"><span class="ibox big"><svg class="ico ic-globe" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11"/><ellipse class="s" cx="16" cy="16" rx="4.8" ry="11"/><path class="s" d="M6 11.5c6 2.6 14 2.6 20 0M6 20.5c6-2.6 14-2.6 20 0"/><circle class="f" cx="23.4" cy="16" r="1.6"/></svg></span><strong>PT / EN</strong><span>Communication</span></div>
+</div>
+
+<section class="section" id="work" aria-labelledby="h1w">
+<div class="sh"><div><h2 id="h1w">Selected management work.</h2></div><p>The essential systems and configurations in these communities were created or organized by me.</p></div>
+<div class="works"><a class="card work" data-s="live" href="https://discord.gg/HwEhF6jyEe" target="_blank" rel="noopener noreferrer" aria-label="Open Anime Divine Discord server">
+<div class="work-art"><img src="assets/94882c9b98.webp" alt="Anime Divine server artwork" width="640" height="640" loading="lazy" decoding="async"><span class="pill live">Current Manager</span></div>
+<div class="work-body"><div class="work-top"><h3>Anime Divine</h3><span class="ibox" aria-hidden="true"><svg class="ico ic-portal" viewBox="0 0 32 32" aria-hidden="true"><path class="s" d="M24.5 17A9.5 9.5 0 1 1 15 7.5"/><circle class="f" cx="15" cy="17" r="1.7"/><path d="M16.5 15.5L26 6"/><path d="M19.5 5.5H26.5V12.5"/></svg></span></div><p>Server structure, configuration, and ongoing community management.</p><div class="work-foot"><span>Server Setup &amp; Organization</span><span>View server</span></div></div></a><a class="card work" data-s="live" href="https://discord.gg/kBApxV7uvg" target="_blank" rel="noopener noreferrer" aria-label="Open Anime: Unleashed Discord server">
+<div class="work-art"><img src="assets/b7e92c62ac.webp" alt="Anime: Unleashed server artwork" width="640" height="640" loading="lazy" decoding="async"><span class="pill live">Current Manager</span></div>
+<div class="work-body"><div class="work-top"><h3>Anime: Unleashed</h3><span class="ibox" aria-hidden="true"><svg class="ico ic-portal" viewBox="0 0 32 32" aria-hidden="true"><path class="s" d="M24.5 17A9.5 9.5 0 1 1 15 7.5"/><circle class="f" cx="15" cy="17" r="1.7"/><path d="M16.5 15.5L26 6"/><path d="M19.5 5.5H26.5V12.5"/></svg></span></div><p>Current Discord management, server organization, and community operations.</p><div class="work-foot"><span>Server Setup &amp; Organization</span><span>View server</span></div></div></a></div>
+</section>
+
+<section class="section" aria-labelledby="h1s">
+<div class="sh"><div><div class="lab">Management Capabilities</div><h2 id="h1s">Systems built for reliable community operations.</h2></div><p>My Management work covers the full server structure, from the first configuration to staff organization and day-to-day community operations.</p></div>
+<div class="svcs"><article class="card svc"><div class="svc-top"><span class="ibox big" aria-hidden="true"><svg class="ico ic-server" viewBox="0 0 32 32" aria-hidden="true"><rect x="4.5" y="5.5" width="23" height="21" rx="3.5"/><path d="M11.5 5.5v21"/><path class="s" d="M7 10.5h2.5M7 14.5h2.5M7 18.5h2.5"/><path d="M15.5 11h8M15.5 16h8"/><path class="s" d="M15.5 21h5"/></svg></span><span class="num">01</span></div><h3>Complete Server Setup</h3><p>Full structure with categories, channels, roles, permissions, onboarding, verification, and clean navigation.</p></article><article class="card svc"><div class="svc-top"><span class="ibox big" aria-hidden="true"><svg class="ico ic-ticket" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 10.5a2.5 2.5 0 0 1 2.5-2.5h17a2.5 2.5 0 0 1 2.5 2.5v3a3 3 0 0 0 0 6v3a2.5 2.5 0 0 1-2.5 2.5h-17A2.5 2.5 0 0 1 5 22.5v-3a3 3 0 0 0 0-6z"/><path class="s dash" d="M20 9.5v13" stroke-dasharray="2 2.6"/><path d="M10 13.5h6M10 18h4"/></svg></span><span class="num">02</span></div><h3>Tickets &amp; Support Systems</h3><p>Custom ticket panels, support categories, staff response flow, FAQs, and organized member assistance.</p></article><article class="card svc"><div class="svc-top"><span class="ibox big" aria-hidden="true"><svg class="ico ic-mega" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 13.5v5a1.5 1.5 0 0 0 1.5 1.5H9l10 5.5V7L9 12H6.5A1.5 1.5 0 0 0 5 13.5z"/><path class="s v1" d="M23 12.5a4.8 4.8 0 0 1 0 7"/><path class="s v2" d="M26.2 9.5a9 9 0 0 1 0 13"/><path d="M10 20.5l1.6 5.6"/></svg></span><span class="num">03</span></div><h3>Rules &amp; Announcements</h3><p>Professional rules, welcome messages, announcement structures, requirements, and server documentation.</p></article><article class="card svc"><div class="svc-top"><span class="ibox big" aria-hidden="true"><svg class="ico ic-recruit" viewBox="0 0 32 32" aria-hidden="true"><circle cx="13" cy="11" r="4.6"/><path d="M4.5 26.5c.7-5.4 3.9-8.2 8.5-8.2s7.8 2.8 8.5 8.2"/><path class="s plus" d="M24.5 7.5v8M20.5 11.5h8"/></svg></span><span class="num">04</span></div><h3>Staff Recruitment</h3><p>Staff recruitment, team hierarchy, responsibilities, permissions, and internal standards.</p></article><article class="card svc"><div class="svc-top"><span class="ibox big" aria-hidden="true"><svg class="ico ic-eye" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3.5l9.5 3.7v7.6c0 5.8-3.9 10-9.5 12.7-5.6-2.7-9.5-6.9-9.5-12.7V7.2z"/><path class="s" d="M10.8 15.2c1.4-2.3 3.2-3.4 5.2-3.4s3.8 1.1 5.2 3.4c-1.4 2.3-3.2 3.4-5.2 3.4s-3.8-1.1-5.2-3.4z"/><circle class="f pupil" cx="16" cy="15.2" r="1.7"/></svg></span><span class="num">05</span></div><h3>Moderation Systems</h3><p>Punishment structures, AutoMod planning, logs, evidence handling, and consistent rule enforcement.</p></article><article class="card svc"><div class="svc-top"><span class="ibox big" aria-hidden="true"><svg class="ico ic-hub" viewBox="0 0 32 32" aria-hidden="true"><rect x="12" y="12" width="8" height="8" rx="2.5"/><circle cx="6.5" cy="6.5" r="2.5"/><circle cx="25.5" cy="6.5" r="2.5"/><circle cx="6.5" cy="25.5" r="2.5"/><circle cx="25.5" cy="25.5" r="2.5"/><path class="s" d="M8.4 8.4l3.8 3.8M23.6 8.4L19.8 12.2M8.4 23.6l3.8-3.8M23.6 23.6l-3.8-3.8"/></svg></span><span class="num">06</span></div><h3>Community Organization</h3><p>Clear systems designed to keep communities professional, welcoming, easy to use, and ready to grow.</p></article></div>
+</section>
+
+<section class="section"><div class="card cta"><div><div class="lab">Professional Management</div><h2>Professional Discord management, structured from the start.</h2><p>For paid Management services covering complete configuration, staff structure, organization, and ongoing community operations, contact me directly on Discord.</p></div><div class="split pri"><a class="seg" href="https://discord.com/users/936796986454212608" target="_blank" rel="noopener noreferrer">Contact Me <span class="ibox"><svg class="ico ic-msg" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 9a3 3 0 0 1 3-3h16a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H15l-5.5 4.5V22H8a3 3 0 0 1-3-3z"/><path class="s" d="M11 12h10M11 16h6"/></svg></span></a><button class="seg copy" type="button" data-copy="itskzyh." aria-live="polite" aria-label="Copy Discord username itskzyh."><span class="cu">itskzyh.</span><span class="cd">Copied</span><span class="ibox"><svg class="ico ic-copy" viewBox="0 0 32 32" aria-hidden="true"><rect x="11" y="11" width="16" height="16" rx="4"/><path class="s" d="M21 11V9a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h2"/></svg><svg class="ico ic-check" viewBox="0 0 32 32" aria-hidden="true"><path d="M7 17l6.500 6.500L25 10"/></svg></span></button></div></div></section>
+<footer class="foot"><span>© Kzyh</span><span>Management · Discord Operations</span></footer>
+</div></section>
+
+<section class="view" id="staff" hidden>
+<div class="shell">
+<div class="hero">
+<div class="hero-copy">
+<div class="kicker rv" style="--d:0">Staff &amp; Moderation</div>
+<h1><span class="ln"><b>Moderation built</b></span><span class="ln g"><b>around consistency and support.</b></span></h1>
+<p class="lead rv" style="--d:2">I have more than one year of Staff experience in moderation, member support, fair rule enforcement, and team assistance.</p>
+<div class="actions rv" style="--d:4"><a class="btn" href="#roster" data-scroll>Selected experience <span class="ibox"><svg class="ico ic-down" viewBox="0 0 32 32" aria-hidden="true"><g class="dn"><path d="M9 14l7 7 7-7"/><path class="s" d="M9 7.5l7 7 7-7"/></g></svg></span></a><a class="btn ghost" href="https://discord.gg/ZPwKWCVdx4" target="_blank" rel="noopener noreferrer">View my Guide <span class="ibox"><svg class="ico ic-book" viewBox="0 0 32 32" aria-hidden="true"><path d="M6 8a3 3 0 0 1 3-3h16v17H9a3 3 0 0 0-3 3z"/><path class="s" d="M6 25a3 3 0 0 0 3 3h16v-6"/><path d="M12 11h8M12 15h5"/></svg></span></a><div class="split"><a class="seg" href="https://discord.com/users/936796986454212608" target="_blank" rel="noopener noreferrer">Contact me <span class="ibox"><svg class="ico ic-msg" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 9a3 3 0 0 1 3-3h16a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H15l-5.5 4.5V22H8a3 3 0 0 1-3-3z"/><path class="s" d="M11 12h10M11 16h6"/></svg></span></a><button class="seg copy" type="button" data-copy="itskzyh." aria-live="polite" aria-label="Copy Discord username itskzyh."><span class="cu">itskzyh.</span><span class="cd">Copied</span><span class="ibox"><svg class="ico ic-copy" viewBox="0 0 32 32" aria-hidden="true"><rect x="11" y="11" width="16" height="16" rx="4"/><path class="s" d="M21 11V9a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h2"/></svg><svg class="ico ic-check" viewBox="0 0 32 32" aria-hidden="true"><path d="M7 17l6.500 6.500L25 10"/></svg></span></button></div></div>
+</div>
+<aside class="id rv" style="--d:3"><i class="cn tl"></i><i class="cn tr"></i><i class="cn bl"></i><i class="cn br"></i><span class="acc"></span>
+<div class="avatar"><img data-av src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="Kzyh profile picture" width="760" height="760" decoding="async"></div>
+<div class="id-cap"><strong>Kzyh</strong><span>Discord moderation and community support.</span></div>
+
+</aside>
+</div>
+<div class="metrics" aria-label="Staff overview">
+<div class="card metric"><span class="ibox big"><svg class="ico ic-shieldclock" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3.5l9.5 3.7v7.6c0 5.8-3.9 10-9.5 12.7-5.6-2.7-9.5-6.9-9.5-12.7V7.2z"/><circle class="s" cx="16" cy="15" r="5.2"/><path d="M16 12.2V15l2.2 1.5"/></svg></span><strong data-to="1" data-suf="+ Year">1+ Year</strong><span>Staff Experience</span></div>
+<div class="card metric"><span class="ibox big"><svg class="ico ic-reach" viewBox="0 0 32 32" aria-hidden="true"><circle class="f" cx="16" cy="16" r="2.6"/><path class="w1" d="M11 11a7.2 7.2 0 0 0 0 10M21 11a7.2 7.2 0 0 1 0 10"/><path class="s w2" d="M6.6 6.6a13.4 13.4 0 0 0 0 18.8M25.4 6.6a13.4 13.4 0 0 1 0 18.8"/></svg></span><strong data-to="1" data-suf="M+">1M+</strong><span>Reported Community <span class="nw">Reach<span class="inf"><svg class="ico ic-info" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11"/><path d="M16 14.5v7"/><circle class="f" cx="16" cy="10.6" r="1.4"/></svg></span></span></span></div>
+<div class="card metric"><span class="ibox big"><svg class="ico ic-nodes" viewBox="0 0 32 32" aria-hidden="true"><circle cx="8.5" cy="9.5" r="3.2"/><circle cx="23.5" cy="8.5" r="3.2"/><circle cx="16" cy="24" r="3.2"/><path class="s" d="M11.7 9.3l8.6-.6M10 12.2l4.2 9.2M22 11.4l-4.4 9.8"/><circle class="f" cx="16" cy="14.2" r="1.4"/></svg></span><strong data-to="15">15</strong><span>Selected Communities</span></div>
+<div class="card metric"><span class="ibox big"><svg class="ico ic-ranks" viewBox="0 0 32 32" aria-hidden="true"><path class="f" d="M16 3.2l1.2 2.4 2.6.4-1.9 1.8.5 2.6-2.4-1.3-2.4 1.3.5-2.6-1.9-1.8 2.6-.4z"/><path class="c1" d="M8 16l8-5 8 5"/><path class="s c2" d="M8 21l8-5 8 5"/><path class="s c3" d="M8 26l8-5 8 5"/></svg></span><strong>Multiple Roles</strong><span>Trial Moderator to Senior Moderator</span></div>
+</div>
+<p class="note"><span class="inf"><svg class="ico ic-info" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11"/><path d="M16 14.5v7"/><circle class="f" cx="16" cy="10.6" r="1.4"/></svg></span>1M+ is a self-reported estimate of combined community reach across listed and additional past Staff communities; it is not the sum of the servers shown here and does not represent unique members.</p>
+<div class="card roles"><div class="lab">Roles across the selected communities</div><div class="dist"><i style="flex:2" class="d0" title="Senior Moderator: 2"></i><i style="flex:9" class="d1" title="Moderator: 9"></i><i style="flex:4" class="d2" title="Trial Moderator: 4"></i></div><div class="leg"><span><b class="k0"></b>Senior Moderator <em>2</em></span><span><b class="k1"></b>Moderator <em>9</em></span><span><b class="k2"></b>Trial Moderator <em>4</em></span></div></div>
+
+<div class="marq" aria-hidden="true"><div class="track" id="track"></div></div>
+<section class="section" id="roster" aria-labelledby="h2e">
+<div class="sh"><div><div class="lab">Staff Experience</div><h2 id="h2e">Selected Experience</h2></div><p>Selected communities are listed by member count, from largest to smallest. Additional past Staff communities are not individually displayed.</p></div>
+<div class="filters" role="group" aria-label="Filter communities"><button class="chip" data-f="all" aria-pressed="true" type="button">All</button><button class="chip" data-f="active" aria-pressed="false" type="button">Active</button><button class="chip" data-f="former" aria-pressed="false" type="button">Former</button><span id="cnt" aria-live="polite">15 communities</span></div>
+<div class="slist"><a class="card srow" data-status="former" href="https://discord.gg/AWHsrVtAyT" target="_blank" rel="noopener noreferrer" aria-label="Open Funzy Labs Discord server">
+<div class="thumb"><img src="assets/e0b656e41f.webp" alt="Funzy Labs server image" width="192" height="192" loading="lazy" decoding="async"></div>
+<div class="sbody"><div class="shead"><h3>Funzy Labs</h3><span class="pill past">Former</span></div><p class="role">Moderator</p>
+<div class="bar" aria-hidden="true"><i style="width:100%"></i></div><div class="meta"><span>130k Members</span><span class="fi"><svg class="ico ic-chat" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 8a3 3 0 0 1 3-3h16a3 3 0 0 1 3 3v11a3 3 0 0 1-3 3H14l-6 5v-5H8a3 3 0 0 1-3-3z"/><path class="s" d="M10.5 12h8M10.5 16h11"/></svg>Chat Moderation &amp; Ticket Support</span></div></div><span class="ibox" aria-hidden="true"><svg class="ico ic-portal" viewBox="0 0 32 32" aria-hidden="true"><path class="s" d="M24.5 17A9.5 9.5 0 1 1 15 7.5"/><circle class="f" cx="15" cy="17" r="1.7"/><path d="M16.5 15.5L26 6"/><path d="M19.5 5.5H26.5V12.5"/></svg></span></a><a class="card srow" data-status="former" href="https://discord.gg/3ffdjBRJ4M" target="_blank" rel="noopener noreferrer" aria-label="Open Anime Weapons Discord server">
+<div class="thumb"><img src="assets/c13e942e7a.webp" alt="Anime Weapons server image" width="192" height="192" loading="lazy" decoding="async"></div>
+<div class="sbody"><div class="shead"><h3>Anime Weapons</h3><span class="pill past">Former</span></div><p class="role">Moderator</p>
+<div class="bar" aria-hidden="true"><i style="width:73%"></i></div><div class="meta"><span>95k Members</span><span class="fi"><svg class="ico ic-chat" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 8a3 3 0 0 1 3-3h16a3 3 0 0 1 3 3v11a3 3 0 0 1-3 3H14l-6 5v-5H8a3 3 0 0 1-3-3z"/><path class="s" d="M10.5 12h8M10.5 16h11"/></svg>Chat Moderation &amp; Ticket Support</span></div></div><span class="ibox" aria-hidden="true"><svg class="ico ic-portal" viewBox="0 0 32 32" aria-hidden="true"><path class="s" d="M24.5 17A9.5 9.5 0 1 1 15 7.5"/><circle class="f" cx="15" cy="17" r="1.7"/><path d="M16.5 15.5L26 6"/><path d="M19.5 5.5H26.5V12.5"/></svg></span></a><a class="card srow" data-status="former" href="https://discord.gg/cPfaJNgTvU" target="_blank" rel="noopener noreferrer" aria-label="Open Rise Seas Discord server">
+<div class="thumb"><img src="assets/1193f23ceb.webp" alt="Rise Seas server image" width="192" height="192" loading="lazy" decoding="async"></div>
+<div class="sbody"><div class="shead"><h3>Rise Seas</h3><span class="pill past">Former</span></div><p class="role">Trial Moderator</p>
+<div class="bar" aria-hidden="true"><i style="width:72%"></i></div><div class="meta"><span>93k Members</span><span class="fi"><svg class="ico ic-ticket" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 10.5a2.5 2.5 0 0 1 2.5-2.5h17a2.5 2.5 0 0 1 2.5 2.5v3a3 3 0 0 0 0 6v3a2.5 2.5 0 0 1-2.5 2.5h-17A2.5 2.5 0 0 1 5 22.5v-3a3 3 0 0 0 0-6z"/><path class="s dash" d="M20 9.5v13" stroke-dasharray="2 2.6"/><path d="M10 13.5h6M10 18h4"/></svg>Ticket Support &amp; Member Assistance</span></div></div><span class="ibox" aria-hidden="true"><svg class="ico ic-portal" viewBox="0 0 32 32" aria-hidden="true"><path class="s" d="M24.5 17A9.5 9.5 0 1 1 15 7.5"/><circle class="f" cx="15" cy="17" r="1.7"/><path d="M16.5 15.5L26 6"/><path d="M19.5 5.5H26.5V12.5"/></svg></span></a><a class="card srow" data-status="former" href="https://discord.gg/KSp2ZJwTX2" target="_blank" rel="noopener noreferrer" aria-label="Open Anime Celestial X Discord server">
+<div class="thumb"><img src="assets/bffce23df8.webp" alt="Anime Celestial X server image" width="192" height="192" loading="lazy" decoding="async"></div>
+<div class="sbody"><div class="shead"><h3>Anime Celestial X</h3><span class="pill past">Former</span></div><p class="role">Trial Moderator</p>
+<div class="bar" aria-hidden="true"><i style="width:62%"></i></div><div class="meta"><span>80k Members</span><span class="fi"><svg class="ico ic-chat" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 8a3 3 0 0 1 3-3h16a3 3 0 0 1 3 3v11a3 3 0 0 1-3 3H14l-6 5v-5H8a3 3 0 0 1-3-3z"/><path class="s" d="M10.5 12h8M10.5 16h11"/></svg>Chat Moderation &amp; Ticket Support</span></div></div><span class="ibox" aria-hidden="true"><svg class="ico ic-portal" viewBox="0 0 32 32" aria-hidden="true"><path class="s" d="M24.5 17A9.5 9.5 0 1 1 15 7.5"/><circle class="f" cx="15" cy="17" r="1.7"/><path d="M16.5 15.5L26 6"/><path d="M19.5 5.5H26.5V12.5"/></svg></span></a><a class="card srow" data-status="former" href="https://discord.gg/MCx9RXfgKF" target="_blank" rel="noopener noreferrer" aria-label="Open Anime Ghosts Discord server">
+<div class="thumb"><img src="assets/8df5401e59.webp" alt="Anime Ghosts server image" width="192" height="192" loading="lazy" decoding="async"></div>
+<div class="sbody"><div class="shead"><h3>Anime Ghosts</h3><span class="pill past">Former</span></div><p class="role">Trial Moderator</p>
+<div class="bar" aria-hidden="true"><i style="width:50%"></i></div><div class="meta"><span>65k Members</span><span class="fi"><svg class="ico ic-alert" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 5l12 21H4z"/><path class="s" d="M16 13v6"/><circle class="f" cx="16" cy="22.5" r="1.3"/></svg>Community Safety &amp; Chat Moderation</span></div></div><span class="ibox" aria-hidden="true"><svg class="ico ic-portal" viewBox="0 0 32 32" aria-hidden="true"><path class="s" d="M24.5 17A9.5 9.5 0 1 1 15 7.5"/><circle class="f" cx="15" cy="17" r="1.7"/><path d="M16.5 15.5L26 6"/><path d="M19.5 5.5H26.5V12.5"/></svg></span></a><a class="card srow" data-status="former" href="https://discord.gg/9gr3tDswcC" target="_blank" rel="noopener noreferrer" aria-label="Open Anime Power Discord server">
+<div class="thumb"><img src="assets/067c1d73f9.webp" alt="Anime Power server image" width="192" height="192" loading="lazy" decoding="async"></div>
+<div class="sbody"><div class="shead"><h3>Anime Power</h3><span class="pill past">Former</span></div><p class="role">Moderator</p>
+<div class="bar" aria-hidden="true"><i style="width:46%"></i></div><div class="meta"><span>60k Members</span><span class="fi"><svg class="ico ic-chat" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 8a3 3 0 0 1 3-3h16a3 3 0 0 1 3 3v11a3 3 0 0 1-3 3H14l-6 5v-5H8a3 3 0 0 1-3-3z"/><path class="s" d="M10.5 12h8M10.5 16h11"/></svg>Member Support &amp; Chat Moderation</span></div></div><span class="ibox" aria-hidden="true"><svg class="ico ic-portal" viewBox="0 0 32 32" aria-hidden="true"><path class="s" d="M24.5 17A9.5 9.5 0 1 1 15 7.5"/><circle class="f" cx="15" cy="17" r="1.7"/><path d="M16.5 15.5L26 6"/><path d="M19.5 5.5H26.5V12.5"/></svg></span></a><a class="card srow" data-status="former" href="https://discord.gg/9CqsMdggRh" target="_blank" rel="noopener noreferrer" aria-label="Open Anime Stars Discord server">
+<div class="thumb"><img src="assets/36636f8e99.webp" alt="Anime Stars server image" width="192" height="192" loading="lazy" decoding="async"></div>
+<div class="sbody"><div class="shead"><h3>Anime Stars</h3><span class="pill past">Former</span></div><p class="role">Moderator</p>
+<div class="bar" aria-hidden="true"><i style="width:23%"></i></div><div class="meta"><span>30k Members</span><span class="fi"><svg class="ico ic-shield" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3.5l10 3.9v8c0 6-4.1 10.4-10 13.1-5.9-2.7-10-7.1-10-13.1v-8z"/><path class="s" d="M16 8.4l6 2.3v5c0 3.6-2.4 6.2-6 7.9-3.6-1.7-6-4.3-6-7.9v-5z"/></svg>Chat &amp; Voice Call Moderation</span></div></div><span class="ibox" aria-hidden="true"><svg class="ico ic-portal" viewBox="0 0 32 32" aria-hidden="true"><path class="s" d="M24.5 17A9.5 9.5 0 1 1 15 7.5"/><circle class="f" cx="15" cy="17" r="1.7"/><path d="M16.5 15.5L26 6"/><path d="M19.5 5.5H26.5V12.5"/></svg></span></a><a class="card srow" data-status="former" href="https://discord.gg/jkTSAkm3K4" target="_blank" rel="noopener noreferrer" aria-label="Open Anime Clash Discord server">
+<div class="thumb"><img src="assets/7b815a30fd.webp" alt="Anime Clash server image" width="192" height="192" loading="lazy" decoding="async"></div>
+<div class="sbody"><div class="shead"><h3>Anime Clash</h3><span class="pill past">Former</span></div><p class="role">Trial Moderator</p>
+<div class="bar" aria-hidden="true"><i style="width:12%"></i></div><div class="meta"><span>15k Members</span><span class="fi"><svg class="ico ic-scales" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 5v21M9 27h14"/><path d="M6 9.5l10-2.5 10 2.5"/><path class="s" d="M6 9.5L2.5 17M6 9.5L9.5 17M26 9.5L22.5 17M26 9.5L29.5 17M2.5 17h7a3.5 3.5 0 0 1-7 0zM22.5 17h7a3.5 3.5 0 0 1-7 0z"/></svg>Rule Enforcement &amp; Chat Moderation</span></div></div><span class="ibox" aria-hidden="true"><svg class="ico ic-portal" viewBox="0 0 32 32" aria-hidden="true"><path class="s" d="M24.5 17A9.5 9.5 0 1 1 15 7.5"/><circle class="f" cx="15" cy="17" r="1.7"/><path d="M16.5 15.5L26 6"/><path d="M19.5 5.5H26.5V12.5"/></svg></span></a><a class="card srow" data-status="former" href="https://discord.gg/6mVEHHaHpy" target="_blank" rel="noopener noreferrer" aria-label="Open Diamond's Destiny Discord server">
+<div class="thumb"><img src="assets/6fef3b7db3.webp" alt="Diamond's Destiny server image" width="192" height="192" loading="lazy" decoding="async"></div>
+<div class="sbody"><div class="shead"><h3>Diamond’s Destiny</h3><span class="pill past">Former</span></div><p class="role">Moderator</p>
+<div class="bar" aria-hidden="true"><i style="width:8%"></i></div><div class="meta"><span>10k Members</span><span class="fi"><svg class="ico ic-flag" viewBox="0 0 32 32" aria-hidden="true"><path d="M8 27V5"/><path d="M8 6h15l-3 5 3 5H8"/></svg>Report Review &amp; Chat Moderation</span></div></div><span class="ibox" aria-hidden="true"><svg class="ico ic-portal" viewBox="0 0 32 32" aria-hidden="true"><path class="s" d="M24.5 17A9.5 9.5 0 1 1 15 7.5"/><circle class="f" cx="15" cy="17" r="1.7"/><path d="M16.5 15.5L26 6"/><path d="M19.5 5.5H26.5V12.5"/></svg></span></a><a class="card srow" data-status="former" href="https://discord.gg/P5nAcaG62V" target="_blank" rel="noopener noreferrer" aria-label="Open Anime Crash Discord server">
+<div class="thumb"><img src="assets/d6e9428b6b.webp" alt="Anime Crash server image" width="192" height="192" loading="lazy" decoding="async"></div>
+<div class="sbody"><div class="shead"><h3>Anime Crash</h3><span class="pill past">Former</span></div><p class="role">Moderator</p>
+<div class="bar" aria-hidden="true"><i style="width:8%"></i></div><div class="meta"><span>10k Members</span><span class="fi"><svg class="ico ic-ticket" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 10.5a2.5 2.5 0 0 1 2.5-2.5h17a2.5 2.5 0 0 1 2.5 2.5v3a3 3 0 0 0 0 6v3a2.5 2.5 0 0 1-2.5 2.5h-17A2.5 2.5 0 0 1 5 22.5v-3a3 3 0 0 0 0-6z"/><path class="s dash" d="M20 9.5v13" stroke-dasharray="2 2.6"/><path d="M10 13.5h6M10 18h4"/></svg>Ticket Support &amp; Chat Moderation</span></div><p class="reuse"><svg class="ico ic-reuse" viewBox="0 0 32 32" aria-hidden="true"><path d="M6 12h13a6 6 0 0 1 0 12H11"/><path d="M11.5 6.5L6 12l5.500 5.500"/><circle class="f" cx="9.5" cy="24" r="1.7"/></svg><span>This server was reused as Anime Paradise.</span></p></div><span class="ibox" aria-hidden="true"><svg class="ico ic-portal" viewBox="0 0 32 32" aria-hidden="true"><path class="s" d="M24.5 17A9.5 9.5 0 1 1 15 7.5"/><circle class="f" cx="15" cy="17" r="1.7"/><path d="M16.5 15.5L26 6"/><path d="M19.5 5.5H26.5V12.5"/></svg></span></a><a class="card srow" data-status="former" href="https://discord.gg/P5nAcaG62V" target="_blank" rel="noopener noreferrer" aria-label="Open Anime Paradise Discord server">
+<div class="thumb"><img src="assets/880daf53e4.webp" alt="Anime Paradise server image" width="192" height="192" loading="lazy" decoding="async"></div>
+<div class="sbody"><div class="shead"><h3>Anime Paradise</h3><span class="pill past">Former</span></div><p class="role">Moderator</p>
+<div class="bar" aria-hidden="true"><i style="width:6%"></i></div><div class="meta"><span>8k Members</span><span class="fi"><svg class="ico ic-chat" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 8a3 3 0 0 1 3-3h16a3 3 0 0 1 3 3v11a3 3 0 0 1-3 3H14l-6 5v-5H8a3 3 0 0 1-3-3z"/><path class="s" d="M10.5 12h8M10.5 16h11"/></svg>Chat Moderation</span></div></div><span class="ibox" aria-hidden="true"><svg class="ico ic-portal" viewBox="0 0 32 32" aria-hidden="true"><path class="s" d="M24.5 17A9.5 9.5 0 1 1 15 7.5"/><circle class="f" cx="15" cy="17" r="1.7"/><path d="M16.5 15.5L26 6"/><path d="M19.5 5.5H26.5V12.5"/></svg></span></a><a class="card srow" data-status="active" href="https://discord.gg/bWJ7kX4tac" target="_blank" rel="noopener noreferrer" aria-label="Open Anime Dominion X Discord server">
+<div class="thumb"><img src="assets/7e834bdcd1.webp" alt="Anime Dominion X server image" width="192" height="192" loading="lazy" decoding="async"></div>
+<div class="sbody"><div class="shead"><h3>Anime Dominion X</h3><span class="pill live">Active</span></div><p class="role">Moderator</p>
+<div class="bar" aria-hidden="true"><i style="width:5%"></i></div><div class="meta"><span>6.6k Members</span><span class="fi"><svg class="ico ic-shield" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3.5l10 3.9v8c0 6-4.1 10.4-10 13.1-5.9-2.7-10-7.1-10-13.1v-8z"/><path class="s" d="M16 8.4l6 2.3v5c0 3.6-2.4 6.2-6 7.9-3.6-1.7-6-4.3-6-7.9v-5z"/></svg>Community Support &amp; Chat Moderation</span></div></div><span class="ibox" aria-hidden="true"><svg class="ico ic-portal" viewBox="0 0 32 32" aria-hidden="true"><path class="s" d="M24.5 17A9.5 9.5 0 1 1 15 7.5"/><circle class="f" cx="15" cy="17" r="1.7"/><path d="M16.5 15.5L26 6"/><path d="M19.5 5.5H26.5V12.5"/></svg></span></a><a class="card srow" data-status="former" href="https://discord.gg/uAStfwHQzs" target="_blank" rel="noopener noreferrer" aria-label="Open Anime Energy Discord server">
+<div class="thumb"><img src="assets/ca99692b9c.webp" alt="Anime Energy server image" width="192" height="192" loading="lazy" decoding="async"></div>
+<div class="sbody"><div class="shead"><h3>Anime Energy</h3><span class="pill past">Former</span></div><p class="role">Senior Moderator</p>
+<div class="bar" aria-hidden="true"><i style="width:4%"></i></div><div class="meta"><span>5k Members</span><span class="fi"><svg class="ico ic-crown" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 24l2-13 6 6 3-9 3 9 6-6 2 13z"/><path class="s" d="M6 28h20"/></svg>Staff Coordination &amp; Chat Moderation</span></div></div><span class="ibox" aria-hidden="true"><svg class="ico ic-portal" viewBox="0 0 32 32" aria-hidden="true"><path class="s" d="M24.5 17A9.5 9.5 0 1 1 15 7.5"/><circle class="f" cx="15" cy="17" r="1.7"/><path d="M16.5 15.5L26 6"/><path d="M19.5 5.5H26.5V12.5"/></svg></span></a><a class="card srow" data-status="active" href="https://discord.gg/89fPr4jEMJ" target="_blank" rel="noopener noreferrer" aria-label="Open Anime Beyond Discord server">
+<div class="thumb"><img src="assets/a71b01ecfd.webp" alt="Anime Beyond server image" width="192" height="192" loading="lazy" decoding="async"></div>
+<div class="sbody"><div class="shead"><h3>Anime Beyond</h3><span class="pill live">Active</span></div><p class="role">Moderator</p>
+<div class="bar" aria-hidden="true"><i style="width:3%"></i></div><div class="meta"><span>4k Members</span><span class="fi"><svg class="ico ic-chat" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 8a3 3 0 0 1 3-3h16a3 3 0 0 1 3 3v11a3 3 0 0 1-3 3H14l-6 5v-5H8a3 3 0 0 1-3-3z"/><path class="s" d="M10.5 12h8M10.5 16h11"/></svg>Chat Moderation &amp; Ticket Support</span></div></div><span class="ibox" aria-hidden="true"><svg class="ico ic-portal" viewBox="0 0 32 32" aria-hidden="true"><path class="s" d="M24.5 17A9.5 9.5 0 1 1 15 7.5"/><circle class="f" cx="15" cy="17" r="1.7"/><path d="M16.5 15.5L26 6"/><path d="M19.5 5.5H26.5V12.5"/></svg></span></a><a class="card srow" data-status="former" href="https://discord.gg/Fyvcbt6JVa" target="_blank" rel="noopener noreferrer" aria-label="Open Anime Heroes Discord server">
+<div class="thumb"><img src="assets/55ce832ca0.webp" alt="Anime Heroes server image" width="192" height="192" loading="lazy" decoding="async"></div>
+<div class="sbody"><div class="shead"><h3>Anime Heroes</h3><span class="pill past">Former</span></div><p class="role">Senior Moderator</p>
+<div class="bar" aria-hidden="true"><i style="width:3%"></i></div><div class="meta"><span>3.5k Members</span><span class="fi"><svg class="ico ic-crown" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 24l2-13 6 6 3-9 3 9 6-6 2 13z"/><path class="s" d="M6 28h20"/></svg>Staff Guidance &amp; Community Moderation</span></div></div><span class="ibox" aria-hidden="true"><svg class="ico ic-portal" viewBox="0 0 32 32" aria-hidden="true"><path class="s" d="M24.5 17A9.5 9.5 0 1 1 15 7.5"/><circle class="f" cx="15" cy="17" r="1.7"/><path d="M16.5 15.5L26 6"/><path d="M19.5 5.5H26.5V12.5"/></svg></span></a></div>
+</section>
+<section class="section"><div class="card cta"><div><div class="lab">Staff Guide</div><h2>Want to become Staff? Start with a clear punishment guide.</h2><p>If you want to become a Staff member and need a reliable guide for punishments, join my Guide. Everything is organized and explained clearly to make each punishment and moderation procedure as easy as possible to understand.</p></div><a class="btn" href="https://discord.gg/ZPwKWCVdx4" target="_blank" rel="noopener noreferrer">View My Guide <span class="ibox"><svg class="ico ic-book" viewBox="0 0 32 32" aria-hidden="true"><path d="M6 8a3 3 0 0 1 3-3h16v17H9a3 3 0 0 0-3 3z"/><path class="s" d="M6 25a3 3 0 0 0 3 3h16v-6"/><path d="M12 11h8M12 15h5"/></svg></span></a></div>
+<div class="card cta back"><div><h2>Management Portfolio</h2><p>View my Discord management and server configuration work.</p></div><button class="btn" data-go="management" type="button">Back to Management <span class="ibox"><svg class="ico ic-back" viewBox="0 0 32 32" aria-hidden="true"><path d="M13 8L6 15l7 7"/><path class="s" d="M6 15h14a6 6 0 0 1 6 6v3"/></svg></span></button></div></section>
+<footer class="foot"><span>© Kzyh</span><span>Staff · Moderation &amp; Community Support</span></footer>
+</div></section>
+</main>
+<button class="totop" id="toTop" aria-label="Back to top" type="button"><span class="ibox"><svg class="ico ic-up" viewBox="0 0 32 32" aria-hidden="true"><g class="up"><path d="M9 18l7-7 7 7"/><path class="s" d="M9 24.5l7-7 7 7"/></g></svg></span></button>
+<script>(()=>{
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const root=document.documentElement;
+const AV=document.querySelector('.avatar img').src;document.querySelectorAll('img[data-av]').forEach(i=>i.src=AV);
+const V={management:$('#management'),staff:$('#staff')},B=document.body;
+function show(n,push=true){const st=n==='staff';V.management.hidden=st;V.staff.hidden=!st;B.classList.toggle('staff-mode',st);
+$('#modeButton').dataset.go=st?'management':'staff';$('#modeText').textContent=st?'Back to Management':'View Staff Experience';root.classList.remove('boot');document.title=st?'Kzyh — Staff & Moderation Portfolio':'Kzyh — Discord Management & Moderation Portfolio';
+if(push){try{history.replaceState(null,'',st?'#staff':'#management')}catch(e){}}scrollTo({top:0})}
+function go(n){try{document.startViewTransition?document.startViewTransition(()=>show(n)):show(n)}catch(e){show(n)}}
+document.addEventListener('click',e=>{const t=e.target.closest('[data-go]');if(t){e.preventDefault();go(t.dataset.go);return}
+const s=e.target.closest('[data-scroll]');if(s){e.preventDefault();$(s.getAttribute('href')).scrollIntoView({behavior:'smooth'})}});
+let pe=null,pr=0;document.addEventListener('pointermove',e=>{pe=e;if(pr)return;pr=requestAnimationFrame(()=>{pr=0;const c=pe.target.closest&&pe.target.closest('.card');if(!c)return;const r=c.getBoundingClientRect();c.style.setProperty('--mx',pe.clientX-r.left+'px');c.style.setProperty('--my',pe.clientY-r.top+'px')})},{passive:true});
+const ch=$$('.chip'),rows=$$('.srow');
+ch.forEach(c=>c.addEventListener('click',()=>{ch.forEach(x=>x.setAttribute('aria-pressed',x===c));let n=0;
+rows.forEach(r=>{const ok=c.dataset.f==='all'||r.dataset.status===c.dataset.f;r.hidden=!ok;ok&&n++});$('#cnt').textContent=n+(n===1?' community':' communities');let k=0;rows.forEach(r=>{if(r.hidden)return;r.classList.remove('flt');void r.offsetWidth;r.style.setProperty('--fd',Math.min(k++,10)*35+'ms');r.classList.add('flt')})}));
+const reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
+const prog=$('#prog'),tt=$('#toTop'),hdr=$('.site-header');let last=0,tth=0;
+if(matchMedia('(pointer:fine)').matches&&!reduce){document.addEventListener('pointermove',e=>{const b=e.target.closest&&e.target.closest('.btn');if(!b)return;const r=b.getBoundingClientRect();b.style.setProperty('--tx',((e.clientX-r.left)/r.width-.5)*8+'px');b.style.setProperty('--ty',((e.clientY-r.top)/r.height-.5)*6+'px')},{passive:true});document.addEventListener('pointerout',e=>{const b=e.target.closest&&e.target.closest('.btn');if(b&&!b.contains(e.relatedTarget)){b.style.setProperty('--tx','0px');b.style.setProperty('--ty','0px')}})}
+tt.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
+if(!root.classList.contains('seen')){root.classList.add('boot');setTimeout(()=>root.classList.remove('boot'),3600)}
+$$('.ico :is(path,rect,circle):not(.f):not(.dash)').forEach(p=>p.setAttribute('pathLength','1'));
+if(matchMedia('(pointer:fine)').matches&&!reduce)$$('.id').forEach(el=>{el.addEventListener('pointermove',e=>{const r=el.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;el.style.transform='perspective(900px) rotateY('+x*9+'deg) rotateX('+-y*9+'deg)'});el.addEventListener('pointerleave',()=>el.style.transform='')});
+function par(){if(reduce)return;const vh=innerHeight;const el=document.querySelector('.view:not([hidden]) .id');if(!el)return;const r=el.getBoundingClientRect();if(r.bottom<-60||r.top>vh+60)return;el.style.setProperty('--py',(-(r.top+r.height/2-vh/2)*.07)+'px')}
+let tick=false;addEventListener('scroll',()=>{if(tick)return;tick=true;requestAnimationFrame(()=>{const h=root.scrollHeight-innerHeight;prog.style.setProperty('--p',h>0?scrollY/h:0);B.classList.toggle('scrolled',scrollY>12);par();{const y=scrollY;if(Math.abs(y-last)>6){const up=y<last;hdr.classList.toggle('hide',y>420&&!up);tt.classList.toggle('show',y>900&&up);last=y;clearTimeout(tth);tth=setTimeout(()=>tt.classList.remove('show'),2800)}}tick=false})},{passive:true});
+const tr=$('#track');$$('.srow').forEach(r=>{const s=document.createElement('span');s.append(r.querySelector('img').cloneNode(),r.querySelector('h3').textContent);tr.append(s)});tr.innerHTML+=tr.innerHTML;
+function count(el){const to=+el.dataset.to,suf=el.dataset.suf||'';if(to<2){el.textContent=to+suf;return}const t0=performance.now();(function f(t){const p=Math.min(1,(t-t0)/1500),e=p===1?1:1-Math.pow(2,-10*p);el.textContent=Math.round(to*e)+suf;p<1&&requestAnimationFrame(f)})(t0)}
+if('IntersectionObserver'in window){root.classList.add('js');
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const el=e.target;io.unobserve(el);el.classList.add('in');el.addEventListener('animationend',ev=>{if(ev.target===el)el.classList.add('done')});el.querySelectorAll('[data-to]').forEach(count)}),{threshold:.12,rootMargin:'0px 0px -6% 0px'});
+$$('.sh,.metric,.work,.svc,.scope,.cta,.roles,.filters,.srow,.foot,.note').forEach(el=>{const sib=[...el.parentElement.children].filter(c=>c.className===el.className);el.style.setProperty('--rd',Math.min(sib.indexOf(el),6)*80+'ms');el.classList.add('rev');io.observe(el)})}
+else $$('[data-to]').forEach(count);
+document.addEventListener('click',e=>{const c=e.target.closest('[data-copy]');if(!c)return;const v=c.dataset.copy;
+const fb=()=>{const t=document.createElement('textarea');t.value=v;t.style.cssText='position:fixed;opacity:0';document.body.append(t);t.select();try{document.execCommand('copy')}catch(_){}t.remove()};
+(navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(v):Promise.reject()).catch(fb).finally(()=>{c.classList.add('done');clearTimeout(c._t);c._t=setTimeout(()=>c.classList.remove('done'),1700)})});
+addEventListener('resize',par);show('management',false);par();
+})();
+</script>
+<script>(()=>{
+const $$=s=>[...document.querySelectorAll(s)];
+const PT={"Skip to content": "Pular para o conteúdo", "View Staff Experience": "Ver experiência de Staff", "Back to Management": "Voltar ao Management", "Management Portfolio": "Portfólio de Management", "Discord systems": "Sistemas de Discord", "built for clarity and operation.": "feitos para clareza e operação.", "I build and organize complete Discord structures, including channels, categories, roles, permissions, onboarding, ticket systems, rules, announcements, staff workflows, and community operations.": "Eu crio e organizo estruturas completas de Discord, incluindo canais, categorias, cargos, permissões, onboarding, sistemas de tickets, regras, anúncios, fluxos de staff e operação da comunidade.", "Selected work": "Trabalhos selecionados", "Contact me": "Fale comigo", "Contact Me": "Fale comigo", "Copied": "Copiado", "Discord management and server operations.": "Gestão de Discord e operação de servidores.", "Current Management Projects": "Projetos de Management atuais", "Core Management Services": "Serviços principais de Management", "End-to-End": "Ponta a ponta", "Management Coverage": "Cobertura de Management", "Communication": "Comunicação", "Selected management work.": "Trabalhos de Management selecionados.", "The essential systems and configurations in these communities were created or organized by me.": "Os sistemas e configurações essenciais dessas comunidades foram criados ou organizados por mim.", "Current Manager": "Manager atual", "Server structure, configuration, and ongoing community management.": "Estrutura do servidor, configuração e gestão contínua da comunidade.", "Server Setup & Organization": "Configuração e organização do servidor", "View server": "Ver servidor", "Current Discord management, server organization, and community operations.": "Gestão atual do Discord, organização do servidor e operação da comunidade.", "Management Capabilities": "Capacidades de Management", "Systems built for reliable community operations.": "Sistemas feitos para uma operação de comunidade confiável.", "My Management work covers the full server structure, from the first configuration to staff organization and day-to-day community operations.": "Meu trabalho de Management cobre toda a estrutura do servidor, da primeira configuração à organização da staff e à operação diária da comunidade.", "Complete Server Setup": "Configuração completa do servidor", "Full structure with categories, channels, roles, permissions, onboarding, verification, and clean navigation.": "Estrutura completa com categorias, canais, cargos, permissões, onboarding, verificação e navegação limpa.", "Tickets & Support Systems": "Tickets e sistemas de suporte", "Custom ticket panels, support categories, staff response flow, FAQs, and organized member assistance.": "Painéis de ticket personalizados, categorias de suporte, fluxo de resposta da staff, FAQs e atendimento organizado aos membros.", "Rules & Announcements": "Regras e anúncios", "Professional rules, welcome messages, announcement structures, requirements, and server documentation.": "Regras profissionais, mensagens de boas-vindas, estruturas de anúncios, requisitos e documentação do servidor.", "Staff Recruitment": "Recrutamento de staff", "Staff recruitment, team hierarchy, responsibilities, permissions, and internal standards.": "Recrutamento de staff, hierarquia da equipe, responsabilidades, permissões e padrões internos.", "Moderation Systems": "Sistemas de moderação", "Punishment structures, AutoMod planning, logs, evidence handling, and consistent rule enforcement.": "Estruturas de punição, planejamento de AutoMod, logs, tratamento de evidências e aplicação consistente das regras.", "Community Organization": "Organização da comunidade", "Clear systems designed to keep communities professional, welcoming, easy to use, and ready to grow.": "Sistemas claros para manter as comunidades profissionais, acolhedoras, fáceis de usar e prontas para crescer.", "Professional Management": "Management profissional", "Professional Discord management, structured from the start.": "Gestão profissional de Discord, estruturada desde o início.", "For paid Management services covering complete configuration, staff structure, organization, and ongoing community operations, contact me directly on Discord.": "Para serviços pagos de Management que cobrem configuração completa, estrutura de staff, organização e operação contínua da comunidade, fale comigo diretamente no Discord.", "Management · Discord Operations": "Management · Operações de Discord", "Staff & Moderation": "Staff e moderação", "Moderation built": "Moderação construída", "around consistency and support.": "com consistência e apoio.", "I have more than one year of Staff experience in moderation, member support, fair rule enforcement, and team assistance.": "Tenho mais de um ano de experiência em Staff com moderação, suporte aos membros, aplicação justa das regras e apoio à equipe.", "Selected experience": "Experiência selecionada", "Selected Experience": "Experiência selecionada", "View my Guide": "Ver meu Guia", "View My Guide": "Ver meu Guia", "Discord moderation and community support.": "Moderação de Discord e suporte à comunidade.", "1+ Year": "1+ ano", "Staff Experience": "Experiência em Staff", "Reported Community": "Alcance relatado da", "Reach": "comunidade", "Selected Communities": "Comunidades selecionadas", "Multiple Roles": "Vários cargos", "Trial Moderator to Senior Moderator": "De Moderador Trial a Moderador Sênior", "1M+ is a self-reported estimate of combined community reach across listed and additional past Staff communities; it is not the sum of the servers shown here and does not represent unique members.": "1M+ é uma estimativa informada por mim do alcance combinado das comunidades listadas e de outras comunidades de Staff anteriores; não é a soma dos servidores exibidos aqui e não representa membros únicos.", "Roles across the selected communities": "Cargos nas comunidades selecionadas", "Senior Moderator": "Moderador Sênior", "Moderator": "Moderador", "Trial Moderator": "Moderador Trial", "Selected communities are listed by member count, from largest to smallest. Additional past Staff communities are not individually displayed.": "As comunidades selecionadas estão listadas por número de membros, da maior para a menor. Outras comunidades de Staff anteriores não são exibidas individualmente.", "Active": "Ativo", "Former": "Ex-staff", "Chat Moderation & Ticket Support": "Moderação de chat e suporte de tickets", "Ticket Support & Member Assistance": "Suporte de tickets e atendimento aos membros", "Community Safety & Chat Moderation": "Segurança da comunidade e moderação de chat", "Member Support & Chat Moderation": "Suporte aos membros e moderação de chat", "Chat & Voice Call Moderation": "Moderação de chat e chamadas de voz", "Rule Enforcement & Chat Moderation": "Aplicação das regras e moderação de chat", "Report Review & Chat Moderation": "Análise de denúncias e moderação de chat", "Ticket Support & Chat Moderation": "Suporte de tickets e moderação de chat", "Chat Moderation": "Moderação de chat", "Community Support & Chat Moderation": "Suporte à comunidade e moderação de chat", "Staff Coordination & Chat Moderation": "Coordenação da staff e moderação de chat", "Staff Guidance & Community Moderation": "Orientação da staff e moderação da comunidade", "This server was reused as Anime Paradise.": "Este servidor foi reutilizado como Anime Paradise.", "Staff Guide": "Guia de Staff", "Want to become Staff? Start with a clear punishment guide.": "Quer entrar para a Staff? Comece com um guia de punições claro.", "If you want to become a Staff member and need a reliable guide for punishments, join my Guide. Everything is organized and explained clearly to make each punishment and moderation procedure as easy as possible to understand.": "Se você quer ser membro da Staff e precisa de um guia confiável sobre punições, entre no meu Guia. Tudo está organizado e explicado com clareza para tornar cada punição e cada procedimento de moderação o mais fácil possível de entender.", "View my Discord management and server configuration work.": "Veja meu trabalho de gestão de Discord e configuração de servidores.", "Staff · Moderation & Community Support": "Staff · Moderação e suporte à comunidade"},AP={"Copy Discord username itskzyh.": "Copiar usuário do Discord itskzyh.", "Kzyh profile picture": "Foto de perfil de Kzyh", "Management overview": "Resumo de Management", "Staff overview": "Resumo de Staff", "Filter communities": "Filtrar comunidades", "Back to top": "Voltar ao topo", "Language": "Idioma"},TT={"Kzyh — Discord Management & Moderation Portfolio": "Kzyh — Portfólio de Discord Management e Moderação", "Kzyh — Staff & Moderation Portfolio": "Kzyh — Portfólio de Staff e Moderação"},MODE={"View Staff Experience": "Ver experiência de Staff", "Back to Management": "Voltar ao Management"},CH={all:'Todos',active:'Ativos',former:'Ex-staff'},RL={'Senior Moderator':'Moderador Sênior','Moderator':'Moderador','Trial Moderator':'Moderador Trial'};
+let lang='en';
+function tx(s){if(PT[s]!==undefined)return PT[s];let m;if(m=s.match(/^(\S+) Members$/))return m[1]+' membros';return null}
+function cnt(s){const m=s.match(/^(\d+) communit(?:y|ies)$/);return m?m[1]+(m[1]==='1'?' comunidade':' comunidades'):null}
+function atx(v){let m;if(m=v.match(/^Open (.+) Discord server$/))return 'Abrir servidor '+m[1]+' no Discord';if(m=v.match(/^(.+) server artwork$/))return 'Arte do servidor '+m[1];if(m=v.match(/^(.+) server image$/))return 'Imagem do servidor '+m[1];if(m=v.match(/^(Senior Moderator|Moderator|Trial Moderator): (\d+)$/))return RL[m[1]]+': '+m[2];return AP[v]||v}
+function walk(l){const w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);for(let n;n=w.nextNode();){const p=n.parentNode;if(/^(SCRIPT|STYLE|NOSCRIPT)$/.test(p.nodeName)||(p.hasAttribute&&(p.hasAttribute('data-to')||p.id==='modeText'||p.id==='cnt')))continue;
+if(n._e===undefined)n._e=n.nodeValue.trim()?n.nodeValue:null;if(n._e===null)continue;
+if(l==='en'){if(n.nodeValue!==n._e)n.nodeValue=n._e;continue}
+const s=n._e.trim(),r=p.classList&&p.classList.contains('chip')?CH[p.dataset.f]:tx(s);if(r!=null)n.nodeValue=n._e.replace(s,()=>r)}}
+function attrs(l){$$('[aria-label],[alt],[title]').forEach(e=>{for(const a of['aria-label','alt','title']){if(!e.hasAttribute(a))continue;const k='_'+a;if(e[k]===undefined)e[k]=e.getAttribute(a);e.setAttribute(a,l==='en'?e[k]:atx(e[k]))}})}
+function counters(l){$$('[data-to]').forEach(e=>{if(e.dataset.suf==='+ Year'||e.dataset.suf==='+ ano'){e.dataset.suf=l==='pt'?'+ ano':'+ Year';if(parseInt(e.textContent)===+e.dataset.to)e.textContent=e.dataset.to+e.dataset.suf}})}
+const dyn=[];
+function watch(el,map){if(!el)return;el._en=el.textContent;el._last=el.textContent;
+const apply=()=>{const v=lang==='en'?el._en:map(el._en);if(v!=null&&v!==el.textContent){el._last=v;el.textContent=v}else el._last=el.textContent};
+new MutationObserver(()=>{const s=el.textContent;if(s===el._last)return;el._en=s;apply()}).observe(el,{childList:true,characterData:true,subtree:true});dyn.push(apply)}
+watch(document.getElementById('modeText'),s=>MODE[s]||null);
+watch(document.getElementById('cnt'),cnt);
+watch(document.querySelector('title'),s=>TT[s]||null);
+function setLang(l,save){lang=l;document.documentElement.lang=l==='pt'?'pt-BR':'en';walk(l);attrs(l);counters(l);dyn.forEach(f=>f());
+const box=document.querySelector('.lang');box.classList.toggle('pt',l==='pt');box.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.lang===l)));
+if(save){try{localStorage.setItem('kz-lang',l)}catch(e){}}}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-lang]');if(b)setLang(b.dataset.lang,true)});
+let saved=null;try{saved=localStorage.getItem('kz-lang')}catch(e){}
+if(saved==='pt')setLang('pt',false);
+})();</script>
+</body></html>
